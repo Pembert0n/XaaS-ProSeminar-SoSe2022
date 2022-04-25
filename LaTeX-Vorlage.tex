@@ -1,0 +1,236 @@
+%
+%  Vorlage/Template fuer #Proseminar
+%
+%  Created by Claudia Pittel und Yunus Erdemir in 2018, updated in 2021.
+%  Copyright (c) 2021 . All rights reserved.
+%
+\documentclass[12pt,toc=bib,toc=listof]{scrreprt}
+\usepackage[ngerman]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Standardschriftart Latin Modern
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+% Arial, so in etwa
+%\usepackage{newtxmath,newtxtext}
+%Times New Roman, so in etwa
+% Zitate durchgehend nummerieren
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+%Zeilenabstand
+\usepackage{setspace}
+\linespread{1.3}
+
+% DIN-A-4, Ränder (oben, links, rechts, unten), Abstand Kopfzeile und Text
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=30mm, right=20mm, bottom=25mm, headsep=12mm}
+
+\usepackage[backend=bibtex, style=authortitle-ibid, url=false, isbn=false, doi=false]{biblatex}
+\addbibresource{literature.bib}
+
+\usepackage{hyperref}
+\hypersetup{
+  ,colorlinks=true
+  ,linkcolor=blue
+  ,citecolor=blue
+  ,filecolor=blue
+  ,urlcolor=blue
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % (fold)
+% Vom Studierenden zu aendernde Werte
+\newcommand{\topic}{THEMA}
+
+\newcommand{\studentnameA}{VORNAME NACHNAME 1}
+\newcommand{\studentidA}{MATRIKELNUMMER 1}
+\newcommand{\studentpartA}{SEITEN oder KAPITEL VON BIS 1}
+
+\newcommand{\studentnameB}{VORNAME NACHNAME 2}
+\newcommand{\studentidB}{MATRIKELNUMMER 2}
+\newcommand{\studentpartB}{SEITEN oder KAPITEL VON BIS 2}
+
+\newcommand{\studentnameC}{VORNAME NACHNAME 3}
+\newcommand{\studentidC}{MATRIKELNUMMER 3}
+\newcommand{\studentpartC}{SEITEN oder KAPITEL VON BIS 3}
+
+\newcommand{\semester}{SEMESTER}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % (end)
+
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+
+\usepackage[headsepline,footsepline]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\ihead{Proseminar: \topic}
+\ofoot{Seite \pagemark}
+\renewcommand*{\chapterpagestyle}{scrheadings}
+\renewcommand*{\chapterheadstartvskip}{}
+
+% Logo
+\titlehead{\flushright\includegraphics[scale=0.5]{HHN_Logo_D_oS_RGB_300.png}}
+\subject{Proseminar (282136)}
+\title{\topic}
+\author{\studentnameA { ({\studentidA)}}, \\ \studentnameB { ({\studentidB)}}, \\ \studentnameC { ({\studentidC)}} }
+\date {\semester}
+%% Datum nie auf einen festen Wert setzen
+\publishers{Vorgelegt bei Claudia Pittel}
+
+%\pagestyle{headings}
+
+% Zähler für Römische Nummerierung
+\newcounter{savepage}
+
+\begin{document}
+\pagenumbering{roman} 
+\selectlanguage{ngerman}
+\sffamily
+% serifenlose Schriftfamilie
+\maketitle
+
+\addchap{Management Summary} % (fold)
+\label{sec:management_summary}
+
+Hier sollte ziemlich genau bzw. maximal 1 Seite Text stehen (ziemlich genau  bedeutet, man sollte so nah wie möglich an 1 Seite herankommen).
+
+% chapter management_summary (end)
+
+\tableofcontents
+
+\addchap{Abkürzungsverzeichnis} % (fold)
+\label{sec:abkuerzungsverzeichnis}
+
+\begin{description}
+\item[ABC] Alphabet
+\item[CDU] Christlich Demokratische Union
+\end{description}
+
+% chapter abkuerzungsverzeichnis (end)
+
+\listoffigures
+\listoftables
+
+% \onehalfspacing
+
+\newpage
+% Zähler speichern
+\setcounter{savepage}{\arabic{page}}
+\pagenumbering{arabic}
+
+\chapter{Einleitung} % (fold)
+\label{sec:einleitung}
+
+Einleitungstext mit Motivation, Ziel der Arbeit (d.h. Erläuterung der Forschungsfrage) und Beschreibung der Vorgehensweise bzw. Aufbau der Arbeit\footcite [vgl.] [S. 38]{Th17}
+
+\section{Motivation} % (fold)
+\label{sec:motivation}
+
+\ldots
+
+% section motivation (end)
+
+\section{Ziel der Arbeit} % (fold)
+\label{sec:ziel_der_arbeit}
+
+\ldots
+
+% section ziel_der_arbeit (end)
+
+\section{Vorgehensweise} % (fold)
+\label{sec:vorgehensweise}
+
+\ldots
+
+% section vorgehensweise (end)
+% chapter einleitung (end)
+
+\chapter{Erstes Oberkapitel des Hauptteils} % (fold)
+\label{sec:ersteskapitel}
+
+Zwischen den Gliederungspunkten sollten jeweils kurze Überleitungssätze stehen, damit man weiß, um was es inhaltlich in den folgenden Unterkapiteln geht.\footcite [Vgl.] []{GPL}
+
+% chapter ersteskapitel (end)
+
+\section{Unterkapitel 1} % (fold)
+\label{sec:unterkapitel1}
+
+Bei den Gliederungspunkten immer auf eine Ausgewogenheit achten, damit eine gleichmäßige Gliederung gefördert werden kann. Sofern Abbildungen (wie Abbildung 1: Beispielbild) verwendet werden, müssen diese auch inhaltlich im Text erwähnt und erläutert werden, sowie ein Abbildungsverzeichnis erstellt werden.\footcite [Vgl.] [] {hhnwin}
+
+% section unterkapitel1 (end)
+
+\section{Unterkapitel 2} % (fold)
+\label{sec:unterkapitel2}
+
+Untergliederungen nur in der Mehrzahl erstellen, d.h. nie 1 Unterkapitel alleine stehen lassen.
+In gleicher Art und Weise wie Abbildungen dargestellt und beschriftet werden, verhält es sich mit Tabellen.
+
+% section unterkapitel1 (end)
+
+\chapter{Zweites Oberkapitel des Hauptteils} % (fold)
+\label{sec:zweiteskapitel}
+
+Der Hauptteil sollte nicht nur aus einem Oberkapitel bestehen, sondern aus mehreren, so dass die Hauptarbeit auch vom Umfang her im Hauptteil liegt. Dementsprechend sollten die Oberkapitel (erste Gliederungsebene) auch eigenständige Kapitelüberschriften besitzen.
+
+% chapter ersteskapitel (end)
+%%% ggf. weitere Abschnitte
+
+\chapter{Fazit und Ausblick} % (fold)
+\label{sec:fazit}
+
+Kritische Begutachtung inklusive Zusammenfassung der Arbeit sowie eventuelle Zukunftsperspektiven zum Thema können hier im Fazit und im Ausblick eingebracht werden.\footcite [Vgl.] [] {HAN2016S30}
+
+% chapter fazit (end)
+
+\appendix
+\newpage
+
+\pagenumbering{roman}
+% Zähler laden
+\setcounter{page}{\thesavepage}
+
+\addchap{Anhang} % (fold)
+\label{sec:anhang}
+
+Der Anhang soll den eigentlichen Hauptteil nicht ergänzen, sondern darüber hinaus weitere möglicherweise interessante Informationen liefern, die aber nicht zwangsläufig notwendig sind, um den Hauptinhalt zu verstehen
+
+\newpage
+
+% Quellen wird erst dargestellt sobald ein Zitat verwendet wird
+\defbibheading{head}{\addchap{Quellenverzeichnis}}
+\printbibliography[heading=head]
+
+\vspace{2cm}
+
+Hier müssen alle Quellenverweise zu finden sein – inklusive aller erforderlichen Angaben, alphabetisch sortiert. Eine Unterteilung in verschiedene Quellenarten ist grundsätzlich nicht notwendig, da die unterschiedlichen Quellenarten anhand der Angabe der bibliographischen Angaben zu erkennen ist. (d.h. beispielsweise keine Unterteilung zwischen „Printquellen“ und „Internetquellen“!)
+
+\newpage
+
+\addchap{Ehrenwörtliche Erklärung} % (fold)
+\label{sec:erklaerung}
+
+„Wir versichern, dass die vorliegende Arbeit von uns selbständig und ausschließlich unter Verwendung der angegebenen Quellen und Hilfsmittel angefertigt wurde. Alle Stellen, die wörtlich oder annähernd aus Veröffentlichungen entnommen sind, haben wir als solche kenntlich gemacht. Die Arbeit wurde bisher in gleicher oder ähnlicher Form, auch nicht in Teilen, keiner anderen Prüfungsbehörde vorgelegt und auch nicht veröffentlicht.“
+
+\vspace{1cm}
+\noindent
+{\studentpartA} wurden von {\studentnameA} verfasst.
+\\
+{\studentpartB} wurden von {\studentnameB} verfasst.
+\\
+{\studentpartC} wurden von {\studentnameC} verfasst.
+
+\vspace{3cm}
+Ort, Datum \hfill Unterschrift
+
+\vspace{2cm}
+Ort, Datum \hfill Unterschrift
+
+\vspace{2cm}
+Ort, Datum \hfill Unterschrift
+
+
+\end{document}
