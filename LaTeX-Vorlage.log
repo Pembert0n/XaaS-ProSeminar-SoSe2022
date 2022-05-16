@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  16 MAY 2022 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  16 MAY 2022 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,10 +934,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ]
 chapter 2.
 
-LaTeX Warning: Citation 'GPL' on page 2 undefined on input line 158.
+LaTeX Warning: Citation 'GPL' on page 2 undefined on input line 160.
 
 
-LaTeX Warning: Citation 'hhnwin' on page 2 undefined on input line 165.
+LaTeX Warning: Citation 'hhnwin' on page 2 undefined on input line 167.
 
 [2
 
@@ -948,7 +948,7 @@ chapter 3.
 ]
 chapter 4.
 
-LaTeX Warning: Citation 'HAN2016S30' on page 4 undefined on input line 188.
+LaTeX Warning: Citation 'HAN2016S30' on page 4 undefined on input line 190.
 
 [4
 
@@ -958,7 +958,7 @@ chapter without number
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 208.
+LaTeX Warning: Empty bibliography on input line 210.
 
 [8]
 chapter without number
@@ -992,7 +992,7 @@ Here is how much of TeX's memory you used:
 <C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.p
 fb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro
 8a.pfb>
-Output written on LaTeX-Vorlage.pdf (13 pages, 83420 bytes).
+Output written on LaTeX-Vorlage.pdf (13 pages, 83419 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
