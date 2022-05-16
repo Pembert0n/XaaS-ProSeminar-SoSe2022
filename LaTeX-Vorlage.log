@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  16 MAY 2022 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  16 MAY 2022 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,10 +934,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ]
 chapter 2.
 
-LaTeX Warning: Citation 'GPL' on page 2 undefined on input line 155.
+LaTeX Warning: Citation 'GPL' on page 2 undefined on input line 158.
 
 
-LaTeX Warning: Citation 'hhnwin' on page 2 undefined on input line 162.
+LaTeX Warning: Citation 'hhnwin' on page 2 undefined on input line 165.
 
 [2
 
@@ -948,7 +948,7 @@ chapter 3.
 ]
 chapter 4.
 
-LaTeX Warning: Citation 'HAN2016S30' on page 4 undefined on input line 185.
+LaTeX Warning: Citation 'HAN2016S30' on page 4 undefined on input line 188.
 
 [4
 
@@ -958,7 +958,7 @@ chapter without number
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 205.
+LaTeX Warning: Empty bibliography on input line 208.
 
 [8]
 chapter without number
@@ -967,9 +967,6 @@ chapter without number
 ] (LaTeX-Vorlage.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `LaTeX-Vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -983,33 +980,21 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22222 strings out of 478582
- 439692 string characters out of 2844344
- 1088446 words of memory out of 3000000
- 40116 multiletter control sequences out of 15000+600000
+ 22218 strings out of 478582
+ 439641 string characters out of 2844344
+ 1087411 words of memory out of 3000000
+ 40115 multiletter control sequences out of 15000+600000
  502059 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10637b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/U
-sers/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C
-:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb
-><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a
-.pfb>
-Output written on LaTeX-Vorlage.pdf (13 pages, 83773 bytes).
+{C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
+<C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.p
+fb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro
+8a.pfb>
+Output written on LaTeX-Vorlage.pdf (13 pages, 83420 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
