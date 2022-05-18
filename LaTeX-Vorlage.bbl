@@ -1,0 +1,164 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{GPL}{online}{}
+    \name{author}{1}{}{%
+      {{hash=FSFI}{%
+         family={Free Software\bibnamedelima Foundation},
+         familyi={F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+         given={Inc.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FSFI1}
+    \strng{fullhash}{FSFI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{GNU General Public License}
+    \verb{url}
+    \verb http://www.gnu.org/licenses/gpl.html
+    \endverb
+    \field{year}{2007}
+    \field{urlday}{05}
+    \field{urlmonth}{12}
+    \field{urlyear}{2015}
+  \endentry
+
+  \entry{HAN2016S30}{article}{}
+    \name{author}{7}{}{%
+      {{hash=HX}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=MLJ}{%
+         family={Medeiros},
+         familyi={M\bibinitperiod},
+         given={L.\bibnamedelima Jeffrey},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ZYH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yu\bibnamedelima Helen},
+         giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=YMJ}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={M.\bibnamedelima James},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Andreeff},
+         familyi={A\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Konopleva},
+         familyi={K\bibinitperiod},
+         given={Marina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BRCE}{%
+         family={Bueso-Ramos},
+         familyi={B\bibinithyphendelim R\bibinitperiod},
+         given={Carlos\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Acute myeloid leukemia, HDM4, HDM4-S, Myelodysplastic syndrome, p53}
+    \strng{namehash}{HX+1}
+    \strng{fullhash}{HXMLJZYHYMJAMKMBRCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.clml.2016.03.012
+    \endverb
+    \field{issn}{2152-2650}
+    \field{note}{Proceedings of the Society of Hematologic Oncology 2015 Annual
+  Meeting}
+    \field{pages}{S30 \bibrangedash  S38}
+    \field{title}{High Expression of Human Homologue of Murine Double Minute 4
+  and the Short Splicing Variant, HDM4-S, in Bone Marrow in Patients With
+  Acute Myeloid Leukemia or Myelodysplastic Syndrome}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S2152265016300246
+    \endverb
+    \field{volume}{16}
+    \field{journaltitle}{Clinical Lymphoma Myeloma and Leukemia}
+    \field{year}{2016}
+  \endentry
+
+  \entry{hhnwin}{online}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={{Hochschule Heilbronn}},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Wirtschaftsinformatik (B.Sc.) im Überblick}
+    \verb{url}
+    \verb https://www.hs-heilbronn.de/win
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{03}
+    \field{urlyear}{2018}
+  \endentry
+
+  \entry{Th17}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TMR}{%
+         family={Theisen},
+         familyi={T\bibinitperiod},
+         given={Manuel\bibnamedelima René},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vahlen}%
+    }
+    \strng{namehash}{TMR1}
+    \strng{fullhash}{TMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{edition}{17., aktualisierte und bearbeitete Auflage}
+    \field{title}{Wissenschaftliches Arbeiten: Technik -- Methodik -- Form}
+    \list{location}{1}{%
+      {München}%
+    }
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
