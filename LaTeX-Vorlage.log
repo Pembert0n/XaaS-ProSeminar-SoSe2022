@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  23 MAY 2022 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,12 +833,12 @@ chapter without number
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 318.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 319.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 318.
+(Font)              scaled to size 11.39996pt on input line 319.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 318.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 318.
+(Font)              scaled to size 11.39996pt on input line 319.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 319.
 (C:\Users\suphi\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [9
@@ -863,7 +863,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10717b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (17 pages, 115416 bytes).
+Output written on LaTeX-Vorlage.pdf (17 pages, 115415 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)
