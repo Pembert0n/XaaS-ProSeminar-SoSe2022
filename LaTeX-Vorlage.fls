@@ -868,9 +868,9 @@ INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr
 INPUT .\LaTeX-Vorlage.toc
 INPUT LaTeX-Vorlage.toc
 INPUT LaTeX-Vorlage.toc
-OUTPUT LaTeX-Vorlage.toc
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+OUTPUT LaTeX-Vorlage.toc
 INPUT .\LaTeX-Vorlage.lof
 INPUT LaTeX-Vorlage.lof
 INPUT LaTeX-Vorlage.lof
@@ -891,6 +891,9 @@ INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvrc8t.tfm
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\suphi\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
