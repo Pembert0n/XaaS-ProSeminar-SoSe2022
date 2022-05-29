@@ -24,13 +24,13 @@
 \contentsline {subsection}{\numberline {4.2.1}Voraussetzung}{5}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Angebot}{5}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Preis}{5}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{5}{section.4.3}%
-\contentsline {chapter}{\numberline {5}GPU as a Service}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Funktionsweise}{6}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einsatzgebiete}{6}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{6}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Marktvorhersage}{7}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{8}{chapter.7}%
+\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{6}{section.4.3}%
+\contentsline {chapter}{\numberline {5}GPU as a Service}{7}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Funktionsweise}{7}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Einsatzgebiete}{7}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{7}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Marktvorhersage}{8}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{9}{chapter.7}%
 \contentsline {chapter}{\nonumberline Anhang}{viii}{chapter*.6}%
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{ix}{chapter*.7}%
 \contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{x}{chapter*.8}%
