@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  29 MAY 2022 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  29 MAY 2022 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -809,23 +809,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--207
 
  []
 
+<Abbildungen/voas1.png, id=134, 490.08093pt x 335.75438pt>
+File: Abbildungen/voas1.png Graphic file (type png)
+<use Abbildungen/voas1.png>
+Package pdftex.def Info: Abbildungen/voas1.png  used on input line 218.
+(pdftex.def)             Requested size: 441.06877pt x 302.17615pt.
 [3
 
-]
+ <./Abbildungen/voas1.png>] [4]
 chapter 4.
-[4
-
-]
-chapter 5.
 [5
 
 ]
-chapter 6.
+chapter 5.
 [6
 
 ]
-chapter 7.
+chapter 6.
 [7
+
+]
+chapter 7.
+[8
 
 ]
 chapter without number
@@ -834,12 +839,12 @@ chapter without number
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 302.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 314.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 302.
+(Font)              scaled to size 11.39996pt on input line 314.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 302.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 302.
+(Font)              scaled to size 11.39996pt on input line 314.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 314.
 (D:\Programme\MikeTex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [9
@@ -856,17 +861,17 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22431 strings out of 478614
- 438857 string characters out of 2854378
- 1106327 words of memory out of 3000000
- 40256 multiletter control sequences out of 15000+600000
+ 22447 strings out of 478614
+ 439145 string characters out of 2854378
+ 1106343 words of memory out of 3000000
+ 40267 multiletter control sequences out of 15000+600000
  510556 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{D:/Programme/MikeTex/fonts/enc/dvips/base/8r.enc}<D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (17 pages, 116221 bytes).
+Output written on LaTeX-Vorlage.pdf (18 pages, 139569 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
