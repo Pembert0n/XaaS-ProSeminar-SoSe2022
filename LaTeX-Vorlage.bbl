@@ -160,5 +160,44 @@
     }
     \field{year}{2017}
   \endentry
+
+  \entry{Voas.2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VJ}{%
+         family={Voas},
+         familyi={V\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kshetri},
+         familyi={K\bibinitperiod},
+         given={Nir},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={DeFranco},
+         familyi={D\bibinitperiod},
+         given={Joanna\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VJKNDJF1}
+    \strng{fullhash}{VJKNDJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1109/MITP.2021.3105248
+    \endverb
+    \field{issn}{1520-9202}
+    \field{number}{5}
+    \field{pages}{78\bibrangedash 82}
+    \field{title}{Scarcity and Global Insecurity: The Semiconductor Shortage}
+    \field{volume}{23}
+    \field{journaltitle}{IT Professional}
+    \field{year}{2021}
+  \endentry
 \enddatalist
 \endinput
