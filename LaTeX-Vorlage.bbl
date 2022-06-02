@@ -135,6 +135,31 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Bill_McClean}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MB}{%
+         family={McClean},
+         familyi={M\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MB1}
+    \strng{fullhash}{MB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{The 2022 McClean Report}
+    \verb{url}
+    \verb https://www.icinsights.com/news/bulletins/The-Real-Reason-Behind-The-
+    \verb Automotive-Industry-IC-ShortageA-StepFunction-Surge-In-Demand/
+    \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{06}
+    \field{urlyear}{2018}
+  \endentry
+
   \entry{Th17}{book}{}
     \name{author}{1}{}{%
       {{hash=TMR}{%
