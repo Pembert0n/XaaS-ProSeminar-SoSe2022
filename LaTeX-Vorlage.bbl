@@ -157,7 +157,31 @@
     \endverb
     \field{urlday}{02}
     \field{urlmonth}{06}
-    \field{urlyear}{2018}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Statista_Research_1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SRD}{%
+         family={Statista-Research-Department},
+         familyi={S\bibinithyphendelim R\bibinithyphendelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRD1}
+    \strng{fullhash}{SRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Volumen der weltweiten Investitionen in
+  Blockchain-Technologien und Kryptowährungen von 2018 bis 2021}
+    \verb{url}
+    \verb https://de.statista.com/statistik/daten/studie/1198230/umfrage/weltwe
+    \verb ite-investitionen-in-blockchain-technologien-und-kryptowaehrungen/
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{Th17}{book}{}
