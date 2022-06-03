@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  3 JUN 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  3 JUN 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -822,15 +822,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--221
 File: Abbildungen/voas1.png Graphic file (type png)
 <use Abbildungen/voas1.png>
 Package pdftex.def Info: Abbildungen/voas1.png  used on input line 232.
-(pdftex.def)             Requested size: 367.5598pt x 251.81516pt.
+(pdftex.def)             Requested size: 441.06877pt x 302.17615pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--250
+Underfull \hbox (badness 10000) in paragraph at lines 225--251
 
  []
 
 [3
 
- <./Abbildungen/Martin_Kords_1.png>] [4 <./Abbildungen/voas1.png>] [5]
+ <./Abbildungen/Martin_Kords_1.png>] [4 <./Abbildungen/voas1.png>]
+Overfull \hbox (3.33707pt too wide) in paragraph at lines 255--264
+\T1/phv/m/n/12 Um den Zu-sam-men-hang zu er-läu-tern, Kryp-towäh-run-gen va-li-die-ren Ih-re Trans-ak-tio-nen durch
+ []
+
+[5]
 chapter 4.
 [6
 
@@ -853,16 +858,16 @@ chapter without number
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 345.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 354.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 345.
+(Font)              scaled to size 11.39996pt on input line 354.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 345.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 345.
+(Font)              scaled to size 11.39996pt on input line 354.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 354.
 (C:\Users\suphi\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (28.46652pt too wide) in paragraph at lines 345--345
+Overfull \hbox (28.46652pt too wide) in paragraph at lines 354--354
 [][]\T1/phv/m/n/12 Statista-Research-Department. \T1/phv/m/sl/12 Vo-lu-men der welt-wei-ten In-ves-ti-tio-nen in Blockchain-Technologien
  []
 
@@ -880,17 +885,17 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22436 strings out of 478582
- 444778 string characters out of 2844344
- 1094718 words of memory out of 3000000
- 40277 multiletter control sequences out of 15000+600000
+ 22451 strings out of 478582
+ 445107 string characters out of 2844344
+ 1094785 words of memory out of 3000000
+ 40290 multiletter control sequences out of 15000+600000
  510556 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10717b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (20 pages, 201939 bytes).
+Output written on LaTeX-Vorlage.pdf (20 pages, 203700 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
