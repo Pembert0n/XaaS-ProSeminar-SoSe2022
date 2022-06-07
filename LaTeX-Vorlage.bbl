@@ -216,6 +216,52 @@
     \field{urlyear}{2018}
   \endentry
 
+  \entry{Lattuada.2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LM}{%
+         family={Lattuada},
+         familyi={L\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gianniti},
+         familyi={G\bibinitperiod},
+         given={Eugenio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Ardagna},
+         familyi={A\bibinitperiod},
+         given={Danilo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM+1}
+    \strng{fullhash}{LMGEADZL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1007/s10586-021-03428-8
+    \endverb
+    \field{issn}{1386-7857}
+    \field{number}{2}
+    \field{pages}{1279\bibrangedash 1302}
+    \field{title}{Performance prediction of deep learning applications training
+  in GPU as a service systems}
+    \field{volume}{25}
+    \field{journaltitle}{Cluster Computing}
+    \field{year}{2022}
+  \endentry
+
   \entry{Bill_McClean}{online}{}
     \name{author}{1}{}{%
       {{hash=MB}{%

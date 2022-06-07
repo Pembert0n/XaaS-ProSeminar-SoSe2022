@@ -27,45 +27,45 @@ Warning--entry type for "Statista_Research_1" isn't style-file defined
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 9 entries,
+You've used 10 entries,
             6399 wiz_defined-function locations,
-            1269 strings with 14505 characters,
-and the built_in function-call counts, 69000 in all, are:
-= -- 5156
-> -- 1953
-< -- 342
-+ -- 2424
-- -- 1237
-* -- 4734
-:= -- 7958
+            1278 strings with 14755 characters,
+and the built_in function-call counts, 78568 in all, are:
+= -- 5965
+> -- 2055
+< -- 365
++ -- 2758
+- -- 1278
+* -- 5412
+:= -- 9152
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 153
+call.type$ -- 10
+change.case$ -- 163
 chr.to.int$ -- 138
-cite$ -- 16
-duplicate$ -- 6084
-empty$ -- 6005
-format.name$ -- 484
-if$ -- 13521
+cite$ -- 18
+duplicate$ -- 7216
+empty$ -- 6793
+format.name$ -- 564
+if$ -- 15351
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 22
 missing$ -- 0
-newline$ -- 281
-num.names$ -- 418
-pop$ -- 2892
+newline$ -- 326
+num.names$ -- 459
+pop$ -- 3280
 preamble$ -- 1
-purify$ -- 187
+purify$ -- 205
 quote$ -- 0
-skip$ -- 1649
+skip$ -- 1809
 stack$ -- 0
-substring$ -- 10347
-swap$ -- 1322
-text.length$ -- 274
-text.prefix$ -- 8
+substring$ -- 11787
+swap$ -- 1504
+text.length$ -- 300
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 293
+type$ -- 327
 warning$ -- 0
-while$ -- 820
+while$ -- 983
 width$ -- 0
-write$ -- 273
+write$ -- 317
 (There was 1 warning)
