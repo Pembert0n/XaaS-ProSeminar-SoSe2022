@@ -262,6 +262,57 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Loop.2006}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LC}{%
+         family={Loop},
+         familyi={L\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Blinn},
+         familyi={B\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=FJ}{%
+         family={Finnegan},
+         familyi={F\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dorsey},
+         familyi={D\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{ACM Press}}%
+    }
+    \strng{namehash}{LCBJ1}
+    \strng{fullhash}{LCBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{ACM SIGGRAPH 2006 Papers on - SIGGRAPH '06}
+    \verb{doi}
+    \verb 10.1145/1179352.1141939
+    \endverb
+    \field{isbn}{1595933646}
+    \field{pages}{664}
+    \field{title}{Real-time GPU rendering of piecewise algebraic surfaces}
+    \list{location}{1}{%
+      {New York, New York, USA}%
+    }
+    \field{year}{2006}
+  \endentry
+
   \entry{Bill_McClean}{online}{}
     \name{author}{1}{}{%
       {{hash=MB}{%
