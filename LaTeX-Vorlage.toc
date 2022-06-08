@@ -27,10 +27,10 @@
 \contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{7}{section.4.3}%
 \contentsline {chapter}{\numberline {5}GPU as a Service}{8}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Funktionsweise}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einsatzgebiete}{8}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{8}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Marktvorhersage}{9}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{10}{chapter.7}%
+\contentsline {section}{\numberline {5.2}Einsatzgebiete}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{9}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Marktvorhersage}{10}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{11}{chapter.7}%
 \contentsline {chapter}{\nonumberline Anhang}{viii}{chapter*.6}%
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{ix}{chapter*.7}%
 \contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{x}{chapter*.8}%

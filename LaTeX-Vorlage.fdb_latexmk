@@ -1,15 +1,16 @@
 # Fdb version 3
-["bibtex LaTeX-Vorlage"] 1654695376 "LaTeX-Vorlage.aux" "LaTeX-Vorlage.bbl" "LaTeX-Vorlage" 1654695380
+["bibtex LaTeX-Vorlage"] 1654698376 "LaTeX-Vorlage.aux" "LaTeX-Vorlage.bbl" "LaTeX-Vorlage" 1654698461
   "C:/Users/suphi/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1643840491 65483 fc69f364ef63c07bf68a2ab4b323f197 ""
-  "LaTeX-Vorlage-blx.bib" 1654695379 340 9808bdce1baf21af67814872548f430c "pdflatex"
-  "LaTeX-Vorlage.aux" 1654695379 22077 023a21ccc3c3669654d7b5e8afde9beb "pdflatex"
+  "LaTeX-Vorlage-blx.bib" 1654698460 340 9808bdce1baf21af67814872548f430c "pdflatex"
+  "LaTeX-Vorlage.aux" 1654698460 22297 df51b7b16de4006d375ad85f605dd529 "pdflatex"
   "literature.bib" 1654694975 7140 468a5838c07bec42f6c57370e5621a53 ""
   (generated)
   "LaTeX-Vorlage.bbl"
   "LaTeX-Vorlage.blg"
-["pdflatex"] 1654695376 "c:/Users/suphi/OneDrive - stud.hs-heilbronn.de/Dokumente/GitHub/Proseminar_Xaas/LaTeX-Vorlage.tex" "LaTeX-Vorlage.pdf" "LaTeX-Vorlage" 1654695380
+["pdflatex"] 1654698457 "c:/Users/suphi/OneDrive - stud.hs-heilbronn.de/Dokumente/GitHub/Proseminar_Xaas/LaTeX-Vorlage.tex" "LaTeX-Vorlage.pdf" "LaTeX-Vorlage" 1654698461
   "Abbildungen/Martin_Kords_1.png" 1654188492 60640 3d92eef3e9ccd455c8c6be8b9dbaf82a ""
   "Abbildungen/voas1.png" 1654188492 25761 6881ea7233cdc0455496ecfd2ee544ad ""
+  "Abbildungen/wang1.png" 1654698215 32084 2f252c9e0933aa33161efe8950417c0e ""
   "C:/Users/suphi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1654261269 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/suphi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1652698433 24152 4c71437bbdeb6599320f1cd0f30ea518 ""
   "C:/Users/suphi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1652698350 10246961 824a04f10c95a7fc70d672aea839f628 ""
@@ -131,15 +132,15 @@
   "C:/Users/suphi/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1324297677 22913 a27d7908fc6f0385466454a966a316eb ""
   "C:/Users/suphi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "HHN_Logo_D_oS_RGB_300.png" 1654188492 20526 eaf91d11702686ea18eb69091f49c2cf ""
-  "LaTeX-Vorlage.aux" 1654695379 22077 023a21ccc3c3669654d7b5e8afde9beb "pdflatex"
-  "LaTeX-Vorlage.bbl" 1654695376 15108 bc6ca25b16a809f7e559ca1c95ad596c "bibtex LaTeX-Vorlage"
-  "LaTeX-Vorlage.lof" 1654695379 513 e7c9642204ae1fe267e553c8cb53ee01 "pdflatex"
-  "LaTeX-Vorlage.lot" 1654695379 365 bc1ec16fb4a69f3a290832bb3d7dba78 "pdflatex"
+  "LaTeX-Vorlage.aux" 1654698460 22297 df51b7b16de4006d375ad85f605dd529 "pdflatex"
+  "LaTeX-Vorlage.bbl" 1654698376 15108 bc6ca25b16a809f7e559ca1c95ad596c "bibtex LaTeX-Vorlage"
+  "LaTeX-Vorlage.lof" 1654698460 587 2ff8bee03008a3e66e18b633a787d950 "pdflatex"
+  "LaTeX-Vorlage.lot" 1654698460 365 bc1ec16fb4a69f3a290832bb3d7dba78 "pdflatex"
   "LaTeX-Vorlage.out" 0 -1 0 "pdflatex"
-  "LaTeX-Vorlage.run.xml" 1654695379 2686 da0ffb5e50de790f748be462994dd062 "pdflatex"
-  "LaTeX-Vorlage.tex" 1654695372 15779 1843051ff2feb58effde9dec2f03de3f ""
-  "LaTeX-Vorlage.toc" 1654695379 2864 f61fca378cccf71aecb884575f4bea09 "pdflatex"
-  "c:/Users/suphi/OneDrive - stud.hs-heilbronn.de/Dokumente/GitHub/Proseminar_Xaas/LaTeX-Vorlage.tex" 1654695372 15779 1843051ff2feb58effde9dec2f03de3f ""
+  "LaTeX-Vorlage.run.xml" 1654698460 2686 da0ffb5e50de790f748be462994dd062 "pdflatex"
+  "LaTeX-Vorlage.tex" 1654698457 16295 3033fa9eaf12625c56a2c13825f4aea8 ""
+  "LaTeX-Vorlage.toc" 1654698460 2865 65b59df7f703e61a96b19b67aa2a7078 "pdflatex"
+  "c:/Users/suphi/OneDrive - stud.hs-heilbronn.de/Dokumente/GitHub/Proseminar_Xaas/LaTeX-Vorlage.tex" 1654698457 16295 3033fa9eaf12625c56a2c13825f4aea8 ""
   (generated)
   "LaTeX-Vorlage-blx.bib"
   "LaTeX-Vorlage.aux"
