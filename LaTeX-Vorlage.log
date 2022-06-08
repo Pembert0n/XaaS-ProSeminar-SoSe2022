@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  8 JUN 2022 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.16)  8 JUN 2022 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -808,7 +808,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 ]
 chapter 3.
-<Abbildungen/Martin_Kords_1.png, id=136, 1003.75pt x 745.78625pt>
+<Abbildungen/Martin_Kords_1.png, id=134, 1003.75pt x 745.78625pt>
 File: Abbildungen/Martin_Kords_1.png Graphic file (type png)
 <use Abbildungen/Martin_Kords_1.png>
 Package pdftex.def Info: Abbildungen/Martin_Kords_1.png  used on input line 207.
@@ -818,7 +818,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--219
 
  []
 
-<Abbildungen/voas1.png, id=143, 490.08093pt x 335.75438pt>
+<Abbildungen/voas1.png, id=141, 490.08093pt x 335.75438pt>
 File: Abbildungen/voas1.png Graphic file (type png)
 <use Abbildungen/voas1.png>
 Package pdftex.def Info: Abbildungen/voas1.png  used on input line 230.
@@ -846,14 +846,19 @@ chapter 4.
 
 ] [7]
 chapter 5.
-<Abbildungen/wang1.png, id=193, 217.31187pt x 128.48pt>
-File: Abbildungen/wang1.png Graphic file (type png)
-<use Abbildungen/wang1.png>
-Package pdftex.def Info: Abbildungen/wang1.png  used on input line 327.
-(pdftex.def)             Requested size: 282.50537pt x 167.02396pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--337
+
+ []
+
 [8
 
- <./Abbildungen/wang1.png>] [9]
+] [9]
 chapter 6.
 [10
 
@@ -868,16 +873,16 @@ chapter without number
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 373.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 379.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 373.
+(Font)              scaled to size 11.39996pt on input line 379.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 373.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 373.
+(Font)              scaled to size 11.39996pt on input line 379.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 379.
 (C:\Users\suphi\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (28.46652pt too wide) in paragraph at lines 373--373
+Overfull \hbox (28.46652pt too wide) in paragraph at lines 379--379
 [][]\T1/phv/m/n/12 Statista-Research-Department. \T1/phv/m/sl/12 Vo-lu-men der welt-wei-ten In-ves-ti-tio-nen in Blockchain-Technologien
  []
 
@@ -895,17 +900,17 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22480 strings out of 478582
- 445796 string characters out of 2844344
- 1094912 words of memory out of 3000000
- 40311 multiletter control sequences out of 15000+600000
+ 22474 strings out of 478582
+ 445645 string characters out of 2844344
+ 1094916 words of memory out of 3000000
+ 40306 multiletter control sequences out of 15000+600000
  510556 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10717b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/suphi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (21 pages, 230356 bytes).
+Output written on LaTeX-Vorlage.pdf (21 pages, 208339 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
