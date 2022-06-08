@@ -27,8 +27,6 @@
 \contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{7}{section.4.3}%
 \contentsline {chapter}{\numberline {5}GPU as a Service}{8}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Funktionsweise}{8}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Lokale GPU}{8}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}GPU als Cloud-Lösung}{8}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Einsatzgebiete}{8}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{8}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Marktvorhersage}{9}{chapter.6}%
