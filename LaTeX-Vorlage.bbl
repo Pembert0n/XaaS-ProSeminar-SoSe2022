@@ -375,5 +375,67 @@
     \field{journaltitle}{IT Professional}
     \field{year}{2021}
   \endentry
+
+  \entry{Wang.2017}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhenning},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Melhem},
+         familyi={M\bibinitperiod},
+         given={Rami},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Childers},
+         familyi={C\bibinitperiod},
+         given={Bruce},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Youtao},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Minyi},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{WZ+1}
+    \strng{fullhash}{WZYJMRCBZYGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{Proceedings of the 44th Annual International Symposium on
+  Computer Architecture}
+    \verb{doi}
+    \verb 10.1145/3079856.3080203
+    \endverb
+    \field{isbn}{9781450348928}
+    \field{pages}{269\bibrangedash 281}
+    \field{title}{Quality of Service Support for Fine-Grained Sharing on GPUs}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2017}
+  \endentry
 \enddatalist
 \endinput
