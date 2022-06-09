@@ -114,6 +114,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{F}
     \field{sortinithash}{F}
+    \field{note}{Aus Vorlage}
     \field{title}{GNU General Public License}
     \verb{url}
     \verb http://www.gnu.org/licenses/gpl.html
@@ -207,6 +208,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
     \field{sortinithash}{H}
+    \field{note}{Aus Vorlage}
     \field{title}{Wirtschaftsinformatik (B.Sc.) im Überblick}
     \verb{url}
     \verb https://www.hs-heilbronn.de/win
@@ -381,6 +383,7 @@
     \field{sortinit}{T}
     \field{sortinithash}{T}
     \field{edition}{17., aktualisierte und bearbeitete Auflage}
+    \field{note}{Aus Vorlage}
     \field{title}{Wissenschaftliches Arbeiten: Technik -- Methodik -- Form}
     \list{location}{1}{%
       {München}%

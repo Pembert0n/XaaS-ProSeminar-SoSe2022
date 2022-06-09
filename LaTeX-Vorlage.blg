@@ -23,43 +23,43 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: LaTeX-Vorlage-blx.bib
 Database file #2: literature.bib
 Warning--entry type for "Statista_Research_1" isn't style-file defined
---line 61 of file literature.bib
+--line 67 of file literature.bib
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 12 entries,
             6399 wiz_defined-function locations,
-            1300 strings with 15322 characters,
-and the built_in function-call counts, 102625 in all, are:
+            1301 strings with 15333 characters,
+and the built_in function-call counts, 102691 in all, are:
 = -- 8082
 > -- 2337
 < -- 465
 + -- 3638
 - -- 1376
-* -- 7002
+* -- 7023
 := -- 12089
 add.period$ -- 0
 call.type$ -- 12
 change.case$ -- 233
 chr.to.int$ -- 138
 cite$ -- 22
-duplicate$ -- 10076
-empty$ -- 8665
+duplicate$ -- 10085
+empty$ -- 8674
 format.name$ -- 752
-if$ -- 20001
+if$ -- 20010
 int.to.chr$ -- 0
 int.to.str$ -- 31
 missing$ -- 0
-newline$ -- 438
+newline$ -- 441
 num.names$ -- 603
-pop$ -- 4102
+pop$ -- 4096
 preamble$ -- 1
 purify$ -- 294
 quote$ -- 0
 skip$ -- 2300
 stack$ -- 0
 substring$ -- 15434
-swap$ -- 1954
+swap$ -- 1972
 text.length$ -- 361
 text.prefix$ -- 11
 top$ -- 1
@@ -67,5 +67,5 @@ type$ -- 395
 warning$ -- 0
 while$ -- 1385
 width$ -- 0
-write$ -- 427
+write$ -- 430
 (There was 1 warning)
