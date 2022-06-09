@@ -307,8 +307,8 @@ Möglichkeiten für GPU as a Service. Wachsende Märkte dafür sind
 das rendern von 3D-Modellen und animierten Videos, 
 wie auch deep learning model training für KIs. 
 Ein übliches Monetarisierungsmodel für GPU as a Service ist "on-demand pay-per-use".\footcite [] [] {Lattuada.2022}
-\\Im folgenden Kapitel soll erklärt werden wie GPUs funktionieren, lokal als Hardware und 
-als Service aus der Cloud. Wie auch die Einsatzgebiete feststellen und identifizieren in 
+\\Im folgenden Kapitel soll erklärt werden wie GPU as a Service Anbieter Ihren Service 
+realisieren können. Wie auch die Einsatzgebiete feststellen und identifizieren in 
 welchen von diesen Einsatzgebiete sich eine Cloud-Lösung eignet.
 
 \section{Funktionsweise}
@@ -336,17 +336,19 @@ hat keinen direkten Mehrwert in Bezug zur Verarbeitungseffizienz, allerdings ver
 sie das Prozesse Kernels unnötig blockieren. \footcite [] [] {Wang.2017}
 \\ \\
 %Andere Methode erklären aus der selben Quelle
-Eine weitere Methode ist das das man die Kernels über Software als einen Kernel verwendet. 
+Ein anderer Ansatz um Konstanz zu schaffen ist das das man die Kernels über Software zu einen Kernel fusioniert. 
 Das ist vergleichbar mit dem für Festplatten verwendete "redundant array of independent disk"-System auch abgekürzt genannt RAID, 
 welches gängiger bekannt ist. Durch das fusionieren der Kernels über die Software kann eine 
 konstante Leistung gewährleistet werden.
 Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen 
 "schlechten Kernel" erwischt zu haben.\footcite [] [] {Wang.2017}
-
-
-
-
-\footcite [] [] {Wang.2017}
+\\ \\
+Eine quasi gegenteilige Methode die Kernels in verschiedene Partitionen aufzuteilen, anstatt Sie zu fusionieren.
+Wiedermal vergleichbar wie man auch mit Festplatten umgehen kann. Die Leistung des Kernel wird 
+in verschiedene Partitionen aufgeteilt. Diese können dann je nach Monetarisierungsmodel 
+vermietet werden für einen Zeitraum oder auf einer Bedarfsbasis. Daraus besteht der Vorteil, 
+dass Nutzer des Services Ihren Bedarf selbst definieren können und garantiert diese Leistung 
+in Anspruch nehmen können. \footcite [] [] {Wang.2017}
 
 \section{Einsatzgebiete}
 \label{sec: Einsatzgebiete}
@@ -355,12 +357,14 @@ Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situ
 %das rendern von 3D-Modellen und animierten Videos, 
 %wie auch deep learning model training für KIs.
 
+
+
 \footcite [] [] {Loop.2006}
 
 \section{Vergleich eigene GPU und GPU in der Cloud}
 \label{sec:Vergleich eigene GPU und GPU in der Cloud}
 
-Inhalt
+
 
 \chapter{Marktvorhersage}
 \label{sec:Marktvorhersage}
