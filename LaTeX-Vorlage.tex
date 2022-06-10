@@ -216,7 +216,7 @@ Zukunft der Bedarf an Halbleitern weiter steigen.\footcite [Vgl.] []{Bill_McClea
 \\In diesem Kapitel soll die Preisentwicklung von GPUs betrachtet werden, dabei wird 
 ein Zusammenhang geschaffen mit den Ursachen die diese Preisentwicklung 
 verursacht haben.
-\\ % Halbe Seite Text
+\\
 
 \section{Preisentwicklung}
 \label{sec:Preisentwicklung}
@@ -260,9 +260,17 @@ Nutzern überprüft durch eine Prüfsumme die dabei gebildet werden können muss
 Nutzen sogenannte "Krypto-Miner" primär GPU-Leistung.\footcite [Vgl.] [S.259-273] {Arslanian.2022}
 \\Da große Investitionen für das Kryptomining getätigt werden hat sich ein neuer Markt mit einer großen Nachfrage gebildet, der
 GPUs benötigt.
-\\
+\\ \\
 %Ein Ende in Sicht?
 %https://www.gartner.com/en/newsroom/press-releases/2021-05-12-gartner-says-global-chip-shortage-expected-to-persist-until-second-quarter-of-2022
+%
+Allerdings gibt es Faktengestütze Prognosen, welche behaupten das der Halbleitermangel nicht zu lange anhalten wird. 
+Nach Gartner war die Prognose auf das zweite Quartal 2022 geschätzt, auch wenn dies nicht im vollen Umfang eingetreten ist sind 
+die Argumente für die weitere Zukunft nicht irrelevant.\\
+Angeführt wird das durch den Halbleitermangel nun die Lieferkette enger überwacht wird.
+Daraus resultierend wird mehr transparenz und vorinverstionen um die Lieferung garantieren zu können. 
+Ebenfalls möchte man auch die Abnahme von mehreren Lieferanten bevorzugen, anstatt von einem Lieferanten abhängig zu sein.
+Diese Faktoren sollen Langfristig Sicherheit in der Lieferkette schaffen. \footcite [Vgl.] [] {Gartner.2021}
 
 \chapter{Gaming as a Service}
 \label{sec: Gaming as a Service}
@@ -303,12 +311,12 @@ Inhalt
 \label{sec:GPU as a Service}
 
 Außerhalb von Gaming as a Service gibt es weitere Service 
-Möglichkeiten für GPU as a Service. Wachsende Märkte dafür sind
+Möglichkeiten die ebenfalls GPU as a Service beanspruchen bzw. inkludieren. Wachsende Märkte dafür sind
 das rendern von 3D-Modellen und animierten Videos, 
 wie auch deep learning model training für KIs. 
-Ein übliches Monetarisierungsmodel für GPU as a Service ist "on-demand pay-per-use".\footcite [Vgl.] [] {Lattuada.2022}
-\\Im folgenden Kapitel soll erklärt werden wie GPU as a Service Anbieter Ihren Service 
-realisieren können. Wie auch die Einsatzgebiete feststellen und identifizieren in 
+\\Im folgenden Kapitel wird erläutert werden wie GPU as a Service Anbieter Ihren Service 
+realisieren können und Qualität schaffen mit verschiedenen Methoden. 
+Wie auch die Einsatzgebiete feststellen und identifizieren in 
 welchen von diesen Einsatzgebiete sich eine Cloud-Lösung eignet.
 
 \section{Funktionsweise}
@@ -324,7 +332,7 @@ Betriebssystem, auch Kernel bezeichnet. Üblicherweise wird das skalierbar angew
 Vielzahl an Kernels, welche eine Vielzahl an GPUs besitzen.\footcite [Vgl.] [] {Wang.2017}
 \\% auskommentiert für Textmessen
 %\begin{figure}[h]
-%  \centering
+% \centering
 %  \includegraphics[scale=1.4]{Abbildungen/wang1.png} 
 %  \caption[]{Current time-multiplexed solution}
 %\end{figure}
@@ -340,7 +348,7 @@ Ein anderer Ansatz um Konstanz zu schaffen ist das das man die Kernels über Sof
 Das ist vergleichbar mit dem für Festplatten verwendete "redundant array of independent disk"-System auch abgekürzt genannt RAID, 
 welches gängiger bekannt ist. Durch das fusionieren der Kernels über die Software kann eine 
 konstante Leistung gewährleistet werden.
-Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen schlechten Kernel erwischt zu haben.\footcite [] [] {Wang.2017}
+Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen schlechten Kernel erwischt zu haben.\footcite [Vgl.] [] {Wang.2017}
 \\ \\
 Eine quasi gegenteilige Methode die Kernels in verschiedene Partitionen aufzuteilen, anstatt Sie zu fusionieren.
 Wiedermal vergleichbar wie man auch mit Festplatten umgehen kann. Die Leistung des Kernel wird 
@@ -376,7 +384,6 @@ nicht vorher konkret bekannt sind, wird besteht ein konstanter Bedarf an Rechenl
 reagieren zu können. Die Rechenleistung wird benötigt bis der Nutzer das Spiel beendet. \footcite [Vgl.] [] {Lattuada.2022} \footcite [Vgl.] [] {Wang.2017} \footcite [Vgl.] [] {Loop.2006}
 %Schlussfolgerung aus eigenem Wissen und den Papers
 
-
 \section{Vergleich eigene GPU und GPU in der Cloud}
 \label{sec:Vergleich eigene GPU und GPU in der Cloud}
 
@@ -388,7 +395,7 @@ entweder in Schüben oder Konstant Rechenleistung abverlangt.\\ \\
 Nach unserem ermessen ist besonders die Entscheidung zwischen der eigenen GPU oder GPU as a Service abhängig der 
 benötigten Rechenleistung und der Verfügbarkeit. In der Annahme das der Dienstleister des GPU as a Serive permanent 
 Verfügbar ist. Sollten für Prozesse welche in Schüben erfolgen GPU as a Service ein attraktives Angebot sein, da 
-diese mit der großen Rechenleistung diese Prozesse in kurzer Zeit abgeschlossen werden können.\\
+diese mit der großen Rechenleistung diese Prozesse in kurzer Zeit abgeschlossen werden können.\\ \\
 Eine eigene GPU ist attraktiv eher im Fall von Konstant benötigter Rechenleistung. Wenn eine Verfügbare GPU in der Lage 
 die benötigte Rechenleistung zu erbringen. Andernfalls ist GPU as a Service ebenfalls eine Lösung, besonders in Zeiten 
 in denen die Preise von GPUs mit dem Halbleitermangel gestigen sind.\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  10 JUN 2022 02:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  10 JUN 2022 02:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -822,12 +822,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--250
 [3
 
 ]
-Overfull \hbox (3.33707pt too wide) in paragraph at lines 254--266
+Overfull \hbox (3.33707pt too wide) in paragraph at lines 254--274
 \T1/phv/m/n/12 Um den Zu-sam-men-hang zu er-läu-tern, Kryp-towäh-run-gen va-li-die-ren Ih-re Trans-ak-tio-nen durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--266
+Underfull \hbox (badness 10000) in paragraph at lines 254--274
 
  []
 
@@ -838,34 +838,39 @@ chapter 4.
 ] [6]
 chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--351
+Underfull \hbox (badness 10000) in paragraph at lines 325--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--351
+Underfull \hbox (badness 10000) in paragraph at lines 325--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--351
+Underfull \hbox (badness 10000) in paragraph at lines 325--359
 
  []
 
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 359--378
+Underfull \hbox (badness 10000) in paragraph at lines 367--386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--395
+Underfull \hbox (badness 10000) in paragraph at lines 390--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--395
+Underfull \hbox (badness 10000) in paragraph at lines 390--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--402
 
  []
 
@@ -884,21 +889,21 @@ chapter without number
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 424.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 431.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 424.
+(Font)              scaled to size 11.39996pt on input line 431.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 424.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 424.
+(Font)              scaled to size 11.39996pt on input line 431.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 431.
 (D:\Programme\MikeTex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (2.03926pt too wide) in paragraph at lines 424--424
+Overfull \hbox (2.03926pt too wide) in paragraph at lines 431--431
 [][]\T1/phv/m/n/12 Hochschule Heil-bronn. \T1/phv/m/sl/12 Wirt-schafts-in-for-ma-tik (B.Sc.) im Über-blick\T1/phv/m/n/12 . Aus Vor-la-ge. \T1/phv/m/sc/12 url\T1/phv/m/n/12 : [][]$\T1/cmtt/m/n/12 https :
  []
 
 
-Overfull \hbox (28.46652pt too wide) in paragraph at lines 424--424
+Overfull \hbox (28.46652pt too wide) in paragraph at lines 431--431
 [][]\T1/phv/m/n/12 Statista-Research-Department. \T1/phv/m/sl/12 Vo-lu-men der welt-wei-ten In-ves-ti-tio-nen in Blockchain-Technologien
  []
 
@@ -916,17 +921,17 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22515 strings out of 478614
- 440682 string characters out of 2854378
- 1113812 words of memory out of 3000000
- 40314 multiletter control sequences out of 15000+600000
+ 22520 strings out of 478614
+ 440868 string characters out of 2854378
+ 1116341 words of memory out of 3000000
+ 40318 multiletter control sequences out of 15000+600000
  510556 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{D:/Programme/MikeTex/fonts/enc/dvips/base/8r.enc}<D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (21 pages, 145677 bytes).
+Output written on LaTeX-Vorlage.pdf (21 pages, 149940 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
