@@ -230,6 +230,44 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Laulajainen.2006}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LJ}{%
+         family={Laulajainen},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sutinen},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jarvinen},
+         familyi={J\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJSTJS1}
+    \strng{fullhash}{LJSTJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{20th International Conference on Advanced Information
+  Networking and Applications - Volume 1 (AINA'06)}
+    \verb{doi}
+    \verb 10.1109/AINA.2006.175
+    \endverb
+    \field{pages}{805\bibrangedash 810}
+    \field{title}{Experiments with QoS-Aware Gaming-on-Demand Service}
+    \field{volume}{1}
+    \field{year}{2006}
+  \endentry
+
   \entry{Loop.2006}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=LC}{%
