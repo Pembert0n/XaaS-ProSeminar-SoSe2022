@@ -274,37 +274,102 @@ Diese Faktoren sollen Langfristig Sicherheit in der Lieferkette schaffen. \footc
 \chapter{Gaming as a Service}
 \label{sec: Gaming as a Service}
 
-Cloud Computing umfasst die Bereitstellung von Rechenleistung und Anwendungen als Dienst über das Internet und soll daher mit Gaming-as-a-Service als Beispiel vertieft werden. Neben der Funktionsweise, werden auch die aktuell verfügbaren Angebote verglichen und damit dem Kauf eines eigenen Computers gegenübergestellt.
+Gaming-as-a-Service ist ein Zukunftstrend in der Spielindustrie. Je nach Entwicklung, steigt die benötigte Hardwareleistung 
+wie CPU, GPU, RAM, sowie Speicherplatz zum Installieren von Spielen stetig an. Hochwertige Spiele können nicht mehr von veralteten 
+Computern genossen werden, wodurch die Hardware regelmäßig aktualisiert werden muss, für eine bessere Umgebung. 
+\\ \\
+In diesem Kapitel soll Cloud Computing mit Gaming-as-a-Service als Beispiel vertieft werden. Hierbei sollen die Funktionalität und Architektur, 
+sowie die aktuell verschiedenen Angebote betrachtet werden.
+
 
 \section{Funktionsweise}
 \label{sec:Funktionsweise}
 
-Die Ausführung der Spiele, einschließlich der Spielelogik und Wiedergabe der Szenen findet innerhalb der Cloud bzw. Server statt. In Verbindung steht das Gerät des Endnutzers, oder auch Thin-Client genannt. Dieser empfängt die komprimiert gestreamten Audio- und Videosignale über das Internet und gibt sie auf dem Thin-Client wieder. Bei eingehenden Befehlen des Endnutzern, werden diese erfasst und an die Cloud übertragen. Durch die Leistung des Netzwerks zwischen dem Client und der Cloud sind die Prozesse eingeschränkt.
+Unabhängig von der Architektur wird das Gaming als Schleifenprozedur betrachtet, die eine Interaktion zwischen Endnutzern und Spiellogik ermöglicht. 
+Hierbei stehen zwei wichtige Komponenten in Relation: Der Server, auch Cloud genannt und das Gerät des Endnutzers, auch Thin-Client genannt. Je nach GaaS-Modell, 
+findet die Ausführung des Spiels, die Spiellogik und die Wiedergabe der Szenen innerhalb der Cloud statt. Für den Empfang der komprimierten Audio- und Videosignale, 
+ist der Thin-Client verantwortlich. \footcite [Vgl.] [] {Zadtootaghaj.2022} In Betracht gezogen werden hier drei GaaS-Modelle: Remote-Rendering-GaaS, Local-Rendering-GaaS 
+und Cognitive-Resource-Allocation-GaaS. \footcite [Vgl.] [] {Cai.2014}
+\\ \\
+Beim Remote-Rendering-GaaS-Modell (RR-GaaS) besitzt die Cloud-Infrastruktur ein Modul zum Kodieren. Dieser ist dafür verantwortlich, jeden Frame der Spielszene zu 
+rendern und den Stream des Videos zu komprimieren, damit er an das Thin-Client übertragen werden kann. Dort wird der Stream dekodiert und angezeigt. Benutzereingaben 
+werden vom Terminal erfasst und die Cloud an die Spiellogik zurückgesendet, die sich um die entsprechende Aktualisierung des Spielzustands kümmert. \footcite [Vgl.] [] {Dangelo.2015}
+Dies impliziert, dass die Hardwareanforderung für den Endnutzern minimiert wird, unabhängig von der Komplexität von Spielszenen, Spiellogik und Interaktionen. Folglich können hochwertige 
+Spiele mit leistungsschwachen Geräten bedient werden. \footcite [Vgl.] [] {Cai.2014} Das RR-GaaS-Modell verbraucht jedoch eine beträchtliche Bandbreite, um den komprimierten Videostream 
+zu übertragen, und kann besonders empfindlich auf Netzwerkverzögerungen reagieren.
+\\ \\
+Beim Local-Rendering-GaaS-Modell (LR-GaaS) wird der Stream des Videos in der Cloud als eine Folge von Rendering-Anweisungen auf hoher Ebene kodiert, die zum Thin-Client gestreamt werden. 
+Dieser dekodiert und führt die Anweisungen aus, um jeden einzelnen Frame zu zeichnen. \footcite [Vgl.] [] {Dangelo.2015} Der hervorstechendste Vorteil des LR-GaaS-Modells besteht darin, dass 
+die Cloud keine einzelnen Frames in Echtzeit mehr über das Internet an die Thin-Clients über-tragen muss, was die Netzwerklast erheblich reduziert. Ansonsten bestehen die ähnlichen Vorteile 
+wie beim RR-GaaS-Modell. \footcite [Vgl.] [] {Cai.2014}
+\\ \\
+Anders als beim RR- und LR-GaaS-Modell, ist beim Cognitive-Resource-Allocation-GaaS die Cloud logisch in eine Reihe von Modulen unterteilt. Die Module können dann wiederum auf dem Thin-Client 
+hochgeladen und ausgeführt werden. Das CRA-GaaS-Modell verlagert die Berechnung zurück auf das Client-Terminal und reduziert so die Belastung der Cloud. Die Client-Ressourcen werden effizient 
+genutzt, da immer nur die benötigten Komponenten lokal gespeichert werden. Dies ist ein erheblicher Vorteil, wenn man bedenkt, dass die Daten eines kompletten mo-dernen Spiels viel Platz einnehmen.
+\footcite [Vgl.] [] {Dangelo.2015}
+\\ \\
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.9]{Abbildungen/GaaS_1.png} 
+  \caption[D’Angelo, Ferretti and Marzolla (2022)]{Gaming as a Service models}
+\end{figure}
 
 \section{Anbietervergleich}
 \label{sec:Anbietervergleich}
 
-%Inhalt
+% Inhalt
 
 \subsection{Voraussetzung}
 \label{sec:Vorraussetzung}
 
-%Inhalt
+All die Prozesse und Interaktionen zwischen der Cloud und dem Thin-Client werden durch die Leistung des Netzwerks eingeschränkt. Weitere Einschränkungen wie eine begrenzte Bandbreite, würde die 
+Erfahrung der Spieler beeinflussen. Ist es aber in Deutschland überhaupt anwendbar mit der aktuellen Breitbandverfügbarkeit? Je nach Anbieter und Qualität des Videostreams variiert sich die erforderliche 
+Internetgeschwindigkeit. Eines der großen Cloud-Gaming-Anbieter, wie Google Stadia, erfordert eine Bandbreite bei der höchsten Auflösung eine Netzwerkgeschwindigkeit von mindestens 35 Mbit/s. \footcite [Vgl.] [] {Stadia.2022}
+Da sich die Cloud beim Gaming-as-a-Service typischerweise im regionalen Netzwerk eines Betreibers befinden, bleibt die Ende-zu-Ende-Übertragungsverzögerung gering, da zwischen dem Client und dem Server normalerweise viel Bandbreite verfügbar ist. 
+Falls jedoch mehrere Geräte den Breitbandanschluss zu Hause nutzen, kann die verfügbare Bandbreite beim Zugang auf der letzten Meile erheblich variieren.
+\\ \\
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.9]{Abbildungen/GaaS_2.png} 
+  \caption[atene KOM GmbH (2021)]{Entwicklung der Breitbandverfuegbarkeit in Deutschland nach Bandbreitenklassen}
+\end{figure}
+\\ \\
+Aus der Abbildung 4.2: „Entwicklung der Breitbandverfügbarkeit in Deutschland“ ist ein Zuwachs der Breitbandverfügbarkeit in den vergangenen Jahren deutlich zu sehen. Ein deutlicher Sprung ist in der 
+höchsten Klasse zu sehen, die sich mehr als verdoppelt hat. Festzustellen ist also, dass die entnommene Anforderung von Google Stadia mit 35 Mbit/s für die höchste Auflösung 
+von 95,1 Prozent der Haushalte in Deutschland erfüllen.
 
 \subsection{Angebot}
 \label{sec:Angebot}
 
-%Inhalt
+Aktuell sind fünf große Cloud-Gaming-Anbieter im deutschen Markt vertreten: Nvidia GeForce Now, Google Stadia, Shadow, Xbox Cloud-Gaming, PS Now sowie weitere kleine Anbieter.  Für die Nutzung des Angebotes 
+der Anbieter ist ein Abonnement erforderlich und nur mit bestimmten Geräten nutzbar. Erste Unterschiede ergeben sich bei den jeweiligen Konzepten. Vergleicht man die angebotenen Abos des Anbieters Nvidia GeForce 
+Now mit Google Stadia, bietet Nvidia GeForce Now drei mögliche Mitgliedschaften, bei der man je nach Auswahl unterschiedliche Leistungen erhält. \footcite [Vgl.] [] {Suznjevic.2016}
+Im Vergleich bietet Google Stadia nur einen möglichen Abo, bei der jeder Endnutzer die gleichen Kosten und Leistungen angeboten bekommt. Aufgrund der Diversität im Angebot besteht im Konzept der einzelnen Betreiber 
+immer noch eine Gemeinsamkeit. Und zwar schaffen die Konzepte einen potenziellen Markt für Benutzer, die nicht den Kauf von Spielsoftware, sondern den Kauf von Spielzeit für Computer- und Konsolenspiele anzustreben.
+Auf diese Weise können Benutzer zu geringen Kosten auf eine Vielzahl von Spielen zugreifen.
+\\ \\
+Von den großen Cloud-Gaming-Anbietern ist kein deutsches Unternehmen mitinbegriffen, zumindest aktuell nicht mehr. Auch Telekom hatte eine eigene Cloud-Gaming-Plattform, bei der keine Downloads oder Kauf teurer 
+Hardware von Nöten ist. Nach nicht einmal zwei Jahren, wurde der Streamingdienst eingestellt, aufgrund Desinteresses der Spieler. \footcite [Vgl.] [] {Telekom.2022} Laut Prognose wird der Marktwert von Cloud-Gaming 
+weltweit bis 2024 sich um 4,27 Prozent steigern. \footcite [Vgl.] [] {Clement.2022} 
 
 \subsection{Preis}
 \label{sec:Preis}
 
-%Inhalt
+Die Preisgestaltung variiert sich von Anbieter zu Anbieter, von Kostenlos bis zu 29,99 Euro pro Monat. Hier spielen zwei große Faktoren eine Rolle: Service/Leistung und Spielebibliothek. Bei der Mitgliedschaft 
+„Kostenlos“ ist eindeutig festzustellen, dass diese Option nur für Interessenten ist, die zum Testen des Service angeregt werden. Mit einem Abo von 9,99 Euro im Monat, wird natürlich schon bei einigen Anbietern der volle Umfang geliefert.
 
 \section{Hardwarevorraussetzung um Usability zu gewährleisten}
 \label{sec:Hardwarevorraussetzung um Usability zu gewährleisten}
 
-%Inhalt
+Die Anforderungen an Rechenleistung und Speicherkapazität von Computer- und Videospielen werden immer höher, da die Spiele immer realistischer und komplexer werden. \footcite [Vgl.] [] {} Für einen einfachen Heimcomputer ist das 
+Abspielen von hochwertigen Spielen in einer guten Umgebung nicht mehr möglich und muss aktualisiert werden. \footcite [Vgl.] [] {Suznjevic.2016} Für die Nutzung des Cloud-Gaming reicht das jedoch. Je nach Anbieter sind die Systemanforderungen 
+unterschiedlich, aber dennoch keine hohen Anforderungen. 
+\\ \\
+Nehmen wir als Beispiel eines der größten Cloud-Gaming-Anbietern Nvidia GeForce Now (GFN). Um GFN nutzen zu können, werden GPUs, die seit 2015 veröffentlich wurden, beim Streaming mit 
+bis zu 3840x2160p 60 FPS und 1440p/1600p 120 FPS unterstützt. Für die CPU genügt eine Dual-Core x86-64 mit 2,0 GHz und RAM mit nur 4 GB Speicher. Mit der Mindestanforderung von GFN muss der Thin-Client keine große Verarbeitungsleistung und 
+Speicherkapazität haben. \footcite [Vgl.] [] {Clement.2022} 
+Mit nur niedriger Anforderung kann alte Hardware die Usability bei Spielen wie bei High-End-Computern gewährleistet werden. Es besteht keine Sorge um die Prozessorleistung, das Betriebssystem, die Grafikkarten oder andere technische 
+Spezifikationen eines Computers. \footcite [Vgl.] [] {Ojala.2011}
 
 \chapter{GPU as a Service}
 \label{sec:GPU as a Service}

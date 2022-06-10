@@ -19,17 +19,17 @@
 \contentsline {section}{\numberline {3.2}Ursache Halbleitermangel und KryptoMining}{5}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Gaming as a Service}{6}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Funktionsweise}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Anbietervergleich}{6}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Voraussetzung}{6}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Angebot}{6}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Preis}{6}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{6}{section.4.3}%
-\contentsline {chapter}{\numberline {5}GPU as a Service}{7}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Funktionsweise}{7}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einsatzgebiete}{8}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{9}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Marktvorhersage}{10}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{11}{chapter.7}%
+\contentsline {section}{\numberline {4.2}Anbietervergleich}{8}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Voraussetzung}{8}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Angebot}{9}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Preis}{9}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{10}{section.4.3}%
+\contentsline {chapter}{\numberline {5}GPU as a Service}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Funktionsweise}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Einsatzgebiete}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{13}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Marktvorhersage}{14}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{15}{chapter.7}%
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{vii}{chapter*.5}%
-\contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{viii}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{ix}{chapter*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

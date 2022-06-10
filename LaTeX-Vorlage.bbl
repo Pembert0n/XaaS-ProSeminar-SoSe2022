@@ -98,6 +98,66 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Clement.2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=CJ}{%
+         family={Clement},
+         familyi={C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ1}
+    \strng{fullhash}{CJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Cloud gaming market value worldwide from 2019 to 2024}
+    \verb{url}
+    \verb https://www.statista.com/statistics/932758/cloud-gaming-market-world/
+    \endverb
+    \field{urlday}{09}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Dangelo.2015}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GDSF}{%
+         family={Gabriele\bibnamedelima D’Angelo},
+         familyi={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Stefano\bibnamedelima Ferretti},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Marzolla},
+         familyi={M\bibinitperiod},
+         given={Moreno},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing Switzerland}%
+    }
+    \strng{namehash}{GDSFMM1}
+    \strng{fullhash}{GDSFMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/978-3-319-08234-9_39-1
+    \endverb
+    \field{isbn}{978-3-319-08234-9}
+    \field{series}{Springer eBook Collection}
+    \field{title}{Cloud for Gaming}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2015}
+  \endentry
+
   \entry{Kords.2022}{online}{}
     \name{author}{1}{}{%
       {{hash=KM}{%
@@ -246,6 +306,39 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{Ojala.2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OA}{%
+         family={Ojala},
+         familyi={O\bibinitperiod},
+         given={Arto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tyrvainen},
+         familyi={T\bibinitperiod},
+         given={Pasi},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OATP1}
+    \strng{fullhash}{OATP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1109/MS.2011.51
+    \endverb
+    \field{number}{4}
+    \field{pages}{42\bibrangedash 47}
+    \field{title}{Developing Cloud Business Models: A Case Study on Cloud
+  Gaming}
+    \field{volume}{28}
+    \field{journaltitle}{IEEE Software}
+    \field{year}{2011}
+  \endentry
+
   \entry{Gartner.2021}{online}{}
     \name{author}{1}{}{%
       {{hash=RM}{%
@@ -273,6 +366,30 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{Stadia.2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Stadia},
+         familyi={S\bibinitperiod},
+         given={Google},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Bandbreite, Datennutzung und Streamingqualität}
+    \verb{url}
+    \verb https://support.google.com/stadia/answer/9607891?hl=de
+    \endverb
+    \field{urlday}{09}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{Statista_Research_1}{online}{}
     \name{author}{1}{}{%
       {{hash=SRD}{%
@@ -293,6 +410,67 @@
     \verb ite-investitionen-in-blockchain-technologien-und-kryptowaehrungen/
     \endverb
     \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Suznjevic.2016}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SM}{%
+         family={Suznjevic},
+         familyi={S\bibinitperiod},
+         given={Mirko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Slivar},
+         familyi={S\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SKL}{%
+         family={Skorin-Kapov},
+         familyi={S\bibinithyphendelim K\bibinitperiod},
+         given={Lea},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMSISKL1}
+    \strng{fullhash}{SMSISKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2016 Eighth International Conference on Quality of
+  Multimedia Experience (QoMEX)}
+    \verb{doi}
+    \verb 10.1109/QoMEX.2016.7498968
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Analysis and QoE evaluation of cloud gaming service
+  adaptation under different network conditions: The case of NVIDIA GeForce
+  NOW}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Telekom.2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={Telekom},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{5G Cloud Gaming}
+    \verb{url}
+    \verb https://www.telekom.de/unterwegs/was-ist-5g/5g-cloud-gaming
+    \endverb
+    \field{urlday}{09}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
   \endentry
@@ -396,6 +574,69 @@
       {New York, NY, USA}%
     }
     \field{year}{2017}
+  \endentry
+
+  \entry{Cai.2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WCMC}{%
+         family={Wei\bibnamedelima Cai},
+         familyi={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Min\bibnamedelima Chen},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LVC}{%
+         family={Leung},
+         familyi={L\bibinitperiod},
+         given={Victor\bibnamedelima C.M.},
+         giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCMCLVC1}
+    \strng{fullhash}{WCMCLVC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1109/MIC.2014.22
+    \endverb
+    \field{issn}{1089-7801}
+    \field{number}{3}
+    \field{pages}{12\bibrangedash 18}
+    \field{title}{Toward Gaming as a Service}
+    \field{volume}{18}
+    \field{journaltitle}{IEEE Internet Computing}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Zadtootaghaj.2022}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ZS}{%
+         family={Zadtootaghaj},
+         familyi={Z\bibinitperiod},
+         given={Saman},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Nature Switzerland AG}%
+    }
+    \strng{namehash}{ZS1}
+    \strng{fullhash}{ZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{doi}
+    \verb 10.1007/978-3-030-98249-2
+    \endverb
+    \field{isbn}{978-3-030-98248-5}
+    \field{series}{Springer eBook Collection}
+    \field{title}{Quality of Experience Modeling for Cloud Gaming Services}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2022}
   \endentry
 \enddatalist
 \endinput
