@@ -306,7 +306,7 @@ Außerhalb von Gaming as a Service gibt es weitere Service
 Möglichkeiten für GPU as a Service. Wachsende Märkte dafür sind
 das rendern von 3D-Modellen und animierten Videos, 
 wie auch deep learning model training für KIs. 
-Ein übliches Monetarisierungsmodel für GPU as a Service ist "on-demand pay-per-use".\footcite [] [] {Lattuada.2022}
+Ein übliches Monetarisierungsmodel für GPU as a Service ist "on-demand pay-per-use".\footcite [Vgl.] [] {Lattuada.2022}
 \\Im folgenden Kapitel soll erklärt werden wie GPU as a Service Anbieter Ihren Service 
 realisieren können. Wie auch die Einsatzgebiete feststellen und identifizieren in 
 welchen von diesen Einsatzgebiete sich eine Cloud-Lösung eignet.
@@ -321,7 +321,7 @@ verwenden GPU a as Service Anbieter mehrere GPUs.
 Allerdings da GPUs nur als Co-Prozessoren in solchen Systemen genutzt werden, 
 können diese nicht eigenständig betrieben werden sondern benötigen einen zentrales 
 Betriebssystem, auch Kernel bezeichnet. Üblicherweise wird das skalierbar angewendet mit einer
-Vielzahl an Kernels, welche eine Vielzahl an GPUs besitzen.\footcite [] [] {Wang.2017}
+Vielzahl an Kernels, welche eine Vielzahl an GPUs besitzen.\footcite [Vgl.] [] {Wang.2017}
 \\% auskommentiert für Textmessen
 %\begin{figure}[h]
 %  \centering
@@ -333,22 +333,21 @@ Es gibt verschiedene Methoden diese Prozesse darauf zu verarbeiten. Eine Methode
 ist das Zeit-Multiplexverfahren. Bei diesem Verfahren werden mehrere Prozesse auf die Kernels
 sequenziell aufgeteilt und verarbeitet, wie in Abbildung 5.1 zu sehen. Dieses Methode 
 hat keinen direkten Mehrwert in Bezug zur Verarbeitungseffizienz, allerdings verhindert 
-sie das Prozesse Kernels unnötig blockieren. \footcite [] [] {Wang.2017}
+sie das Prozesse Kernels unnötig blockieren. \footcite [Vgl.] [] {Wang.2017}
 \\ \\
 %Andere Methode erklären aus der selben Quelle
 Ein anderer Ansatz um Konstanz zu schaffen ist das das man die Kernels über Software zu einen Kernel fusioniert. 
 Das ist vergleichbar mit dem für Festplatten verwendete "redundant array of independent disk"-System auch abgekürzt genannt RAID, 
 welches gängiger bekannt ist. Durch das fusionieren der Kernels über die Software kann eine 
 konstante Leistung gewährleistet werden.
-Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen 
-"schlechten Kernel" erwischt zu haben.\footcite [] [] {Wang.2017}
+Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen schlechten Kernel erwischt zu haben.\footcite [] [] {Wang.2017}
 \\ \\
 Eine quasi gegenteilige Methode die Kernels in verschiedene Partitionen aufzuteilen, anstatt Sie zu fusionieren.
 Wiedermal vergleichbar wie man auch mit Festplatten umgehen kann. Die Leistung des Kernel wird 
 in verschiedene Partitionen aufgeteilt. Diese können dann je nach Monetarisierungsmodel 
 vermietet werden für einen Zeitraum oder auf einer Bedarfsbasis. Daraus besteht der Vorteil, 
 dass Nutzer des Services Ihren Bedarf selbst definieren können und garantiert diese Leistung 
-in Anspruch nehmen können. \footcite [] [] {Wang.2017}
+in Anspruch nehmen können. \footcite [Vgl.] [] {Wang.2017}
 
 \section{Einsatzgebiete}
 \label{sec: Einsatzgebiete}
@@ -357,14 +356,42 @@ in Anspruch nehmen können. \footcite [] [] {Wang.2017}
 %das rendern von 3D-Modellen und animierten Videos, 
 %wie auch deep learning model training für KIs.
 
+Die Einsatzgebiete sind weitreichend und können auf zwei Bedarfsmethoden eingeteilt werden.
+Einmal in Schüben, in denen ein festes Ziel und der Aufwand definiert wird, welcher der Prozess erreichen soll.
+Beispiele dafür sind rendern von 3D-Modellen und animierten Videos.
+\\ 
+Um dieses Beispiele auszuführen, wenn ein 3D-Modell dargestellt wird. Das 3D-Modell besteht aus Matrixoperationen die von GPUs 
+in der Regel berechnet werden. Meist mit dem Ziel diese realitätsgeträu und logisch in einer Umgebung darzustellen.
+Dieses Beispiel lässt erweitern auf animierte Videos, bei diesen dann eine veränderte Version des Vorgängermodells oder ein 
+vollkommen anderes Modell für jedes Bild das gezeigt wird. \footcite [Vgl.] [] {Loop.2006}
+\\ \\
+Ebenso ist es möglich, dass optinal mit einem Ziel aber unbekannten Aufwand, so ein Prozess ausgeführt wird. 
+In diesem Fall wird eine konstante Rechenleistung benötigt wird.
+Beispiele dafür sind deep learning modelle für KIs oder Gaming as a Service.
+\\
+Um hier Ebenfalls ein Beispiel anzuführen, wenn Gaming as a Service Dienste in Anspruch genommen.
+Bei diesem Service ist kein Ziel festgelegt, da auch nicht ein konkreter Prozess vorgegeben wird.
+Anhand der Eingaben des Nutzers variert die benötige Visualsierung und Spielelogik. Da die Eingaben 
+nicht vorher konkret bekannt sind, wird besteht ein konstanter Bedarf an Rechenleistung um auf die Eingaben 
+reagieren zu können. Die Rechenleistung wird benötigt bis der Nutzer das Spiel beendet. \footcite [Vgl.] [] {Lattuada.2022} \footcite [Vgl.] [] {Wang.2017} \footcite [Vgl.] [] {Loop.2006}
+%Schlussfolgerung aus eigenem Wissen und den Papers
 
-
-\footcite [] [] {Loop.2006}
 
 \section{Vergleich eigene GPU und GPU in der Cloud}
 \label{sec:Vergleich eigene GPU und GPU in der Cloud}
 
-
+Nach dem angeführten Informationen lässt sich folgendes feststellen. 
+Der Bedarf an GPU Rechenleistung ist im konstanten Wachstum für verschiedene Märkte. Die GPU as a Service Anbieter 
+können Ihre Systeme entsprechend dem Monetarisierungsmodel und dem Leistungsprioritäten aufstellen. Dabei sind das 
+keine neue Methoden und vergleichbar mit der Massenspeicherverwaltung. Je nach geplanter Nutzung werden GPUs 
+entweder in Schüben oder Konstant Rechenleistung abverlangt.\\ \\
+Nach unserem ermessen ist besonders die Entscheidung zwischen der eigenen GPU oder GPU as a Service abhängig der 
+benötigten Rechenleistung und der Verfügbarkeit. In der Annahme das der Dienstleister des GPU as a Serive permanent 
+Verfügbar ist. Sollten für Prozesse welche in Schüben erfolgen GPU as a Service ein attraktives Angebot sein, da 
+diese mit der großen Rechenleistung diese Prozesse in kurzer Zeit abgeschlossen werden können.\\
+Eine eigene GPU ist attraktiv eher im Fall von Konstant benötigter Rechenleistung. Wenn eine Verfügbare GPU in der Lage 
+die benötigte Rechenleistung zu erbringen. Andernfalls ist GPU as a Service ebenfalls eine Lösung, besonders in Zeiten 
+in denen die Preise von GPUs mit dem Halbleitermangel gestigen sind.\\
 
 \chapter{Marktvorhersage}
 \label{sec:Marktvorhersage}
