@@ -131,12 +131,12 @@
 \section{Motivation} % (fold)
 \label{sec:motivation}
 %%%% Version 1 von Suphi %%%%%%%%
-Durch den aktuell anhaltende Halbleitermangel besteht ein Engpass an Ressourcen von die meisten Wirtschaftszweige betroffen sind.
-Einer dieser Wirtschaftszweige ist die Produktion von GPUs (graphics processing unit. Diese werden für diverse Anwendung von Computern verwendet, im betrieblichen wie auch im privaten Bereich.
-Primär in dieser Arbeit werden die Bereiche High-Performance-Computing (HPC) und Gaming haben.
-Beide diese Bereiche benötigen GPU-Rechenleistung, welche im konventionell von einer lokal verbauten GPU zur Verfügung gestellt wird. 
-Als Langfristige Lösung soll analysiert werden ob es möglich ist durch zentrale Services, welche GPU as a Service anbieten. 
-Durch die zentralen Ressourcenteilung dem Mangel entgegenzuwirken mit einer alternative für den Bedarf zu schaffen.
+Durch den aktuell anhaltende Halbleitermangel besteht ein Engpass an Ressourcen von dem die meisten Wirtschaftszweige betroffen sind.
+Einer dieser Wirtschaftszweige ist die Produktion von GPUs (graphics processing unit). Diese werden für diverse Prozesse in Computern verwendet, im betrieblichen wie auch im privaten Bereich.
+Primär in dieser Arbeit werden die Bereiche High-Performance-Computing (HPC) und Gaming betrachtet.
+Beide diese Bereiche benötigen GPU-Rechenleistung, welche konventionell von einer lokal verbauten GPU zur Verfügung gestellt wird. 
+Als langfristige Lösung soll analysiert werden ob es möglich ist durch zentrale Services, welche GPU as a Service anbieten. 
+Durch die zentralen Ressourcenteilung wird dem Mangel entgegengewirkt durch die Schaffung einer Alternative für den Bedarf.
 
 % section motivation (end)
 
@@ -198,7 +198,7 @@ Durch die zentralen Ressourcenteilung dem Mangel entgegenzuwirken mit einer alte
 \label{sec:Knappheit von Grafikkarten}
 
 Die Knappheit von Grafikkarten hat den
-aktuellen Markt durch neue Branchen die GPU-Leistung nutzen nachhaltig verändert.
+aktuellen Markt durch neue Branchen, die GPU-Leistung nutzen, nachhaltig verändert.
 Diese Knappheit entsteht nicht nur durch den Mangel des Rohstoffes, sondern auch durch die 
 Weiterentwicklung von verwendeten Computern in allen Einsatzgebieten.\footcite [Vgl.] []{Voas.2021}
 \\
@@ -208,7 +208,7 @@ Weiterentwicklung von verwendeten Computern in allen Einsatzgebieten.\footcite [
   \caption[M. Kords (2022)] {Weltweite Lieferung von Halbleiterprodukten für die Automobilindustrie von 2011 bis 2021}
 \end{figure}
 \\
-Im Vergleich zu 2011 wurden für die Automobilindustrie im Jahr 2021 fast drei mal so viele
+Im Vergleich zur Lage im Jahr 2011 wurden für die Automobilindustrie im Jahr 2021 fast drei mal so viele
 Halbleiter geliefert. Ebenfalls mit der Weiterentwicklung von Internet of Things Produkten wird in
 Zukunft der Bedarf an Halbleitern weiter steigen.\footcite [Vgl.] []{Bill_McClean} \footcite [Vgl.] []{Voas.2021} \footcite [Vgl.] {Kords.2022}
 %Quelle https://www.icinsights.com/news/bulletins/The-Real-Reason-Behind-The-Automotive-Industry-IC-ShortageA-StepFunction-Surge-In-Demand/
@@ -223,53 +223,53 @@ verursacht haben.
 Die rapide steigende Preisentwicklung von GPUs ist auf zwei Kernfaktoren reduzierbar.\\
 - Größerer Bedarf an GPUs und Halbleitern, dem Kernbestandteil von GPUs\\ %Beispiel aufgezeigt
 - Mangelnde Kapazitäten zur Produktion von Halbleitern\\
-Der Bedarf an Halbleitern und GPUs ist konstant im Anstieg. Besonders durch die Corona Pandemie,
-hat sich im Vergleich zu 2019 im Jahr 2020 ein Umsatzanstieg von 5,4\% aufgezeigt.\footcite [Vgl.] []{Voas.2021}
+Der Bedarf an Halbleitern und GPUs ist konstant im Anstieg. Besonders durch die Corona-Pandemie,
+hat sich im Vergleich zu 2019 im Jahr 2020 ein Umsatzanstieg von 5,4 \% aufgezeigt.\footcite [Vgl.] []{Voas.2021}
 \begin{figure}[h]
   \centering
   \includegraphics[scale=0.9]{Abbildungen/voas1.png} % 0,9 ursprünglich, auf Seite anpassen
   \caption[Voas, Kshetri und DeFranco (2021)]{Worldwide semiconductor revenues in 2019 and 2020 (dollar, billions)}
 \end{figure}
-\\Wie in Abbildung 3.2 zu sehen ist der Umsatzanstieg größtenteils durch Erlöse von Computersystemen entstanden.
-Im Vergleich dazu sind Umsätze, die durch Abnehmer in der Automobilbranche entstanden sind gesunken.
-Das lässt sich auf den steigenden Bedarf an Computersystemen zurückführen. Während der Pandemie mussten
-viele Menschen Home-Schooling und Home-Office aneignen, um weiter den Alltagsbetrieb ausführen zu können.
+\\Wie in Abbildung 3.2 zu sehen ist, ist der Umsatzanstieg größtenteils durch Erlöse von Computersystemen entstanden.
+Im Vergleich dazu sind Umsätze, die durch Abnehmer in der Automobilbranche entstanden sind, gesunken.
+Das lässt sich auf den steigenden Bedarf an Computersystemen zurückführen. Während der Pandemie mussten sich
+viele Menschen an Home-Schooling und Home-Office anpassen, um weiter den Alltagsbetrieb ausführen zu können.
 Ein Nebenläufiger Effekt ist damit, dass durch die Digitalisierung weniger Mobilität benötigt wird.
-Damit lässt sich der reduzierte Bedarf an Halbleitern erklären. Dennoch ist damit insgesamt der Bedarf an 
-Halbleiter gestiegen.\footcite [Vgl.] []{Voas.2021}
+Damit lässt sich der reduzierte Bedarf an Halbleitern in der Automobilindustrie erklären. Dennoch ist damit insgesamt der Bedarf an 
+Halbleitern gestiegen.\footcite [Vgl.] []{Voas.2021}
 \\\\ Der steigende Bedarf allein ist aber wie angeführt nicht der einzige Faktor. Die Produktion 
 von Halbleitern stagniert. Das lässt sich auf verschiedene Ursachen zurückführen. Da die meisten 
 Halbleiter in asiatischen Ländern produziert werden und diese den eigenen Bedarf zuerst decken, ist 
-für den Export weniger Verfügbar. Ebenfalls haben sin in den letzten Jahren Naturdesaster ereignet die
-Ebenfalls durch z.B. Dürre die Produktion Lahmgelegt haben.\footcite [Vgl.] []{Voas.2021}
+für den Export weniger verfügbar. Ebenfalls haben sich in den letzten Jahren Naturkatastrophen ereignet, die
+z.B. durch Dürre, die Produktion lahmgelegten.\footcite [Vgl.] []{Voas.2021}
 \\
-Durch mangelnde Produktion und steigender Bedarf hat sich nun ein sehr hoher Marktpreis entwickelt. 
-Um diesem Entgegenzuwirken ist nicht nur Ressourcenverfügbarkeit zu schaffen, sondern auch eine effizientere Methode
-die Ressourcen zu nutzen.
+Durch mangelnde Produktion und steigenden Bedarf hat sich nun ein sehr hoher Marktpreis entwickelt. 
+Um diesem entgegenzuwirken ist nicht nur Ressourcenverfügbarkeit zu schaffen, sondern auch eine effizientere Methode zur Nutzung
+der Ressourcen.
 
-\section{Ursache Halbleitermangel und KryptoMining}
-\label{sec:Ursache Halbleitermangel und KryptoMining}
+\section{Ursache Halbleitermangel und Krypto-Mining}
+\label{sec:Ursache Halbleitermangel und Krypto-Mining}
 
-Um den Halbleitermangel besser zu verstehen, sollten eine neue Branche die primär GPU-Leistung 
-nutzt thematisiert werden. Seit dem Jahr 2021 haben Kryptowährungen ein mehr als fünffaches Investitionsvolumen
-im Vergleich zum Vorjahr.\footcite [] [] {Statista_Research_1}
-\\Um den Zusammenhang zu erläutern, Kryptowährungen validieren Ihre Transaktionen durch die Nutzung der 
+Um den Halbleitermangel besser zu verstehen, sollte eine neue Branche, die primär GPU-Leistung 
+nutzt, thematisiert werden. Seit dem Jahr 2021 haben Kryptowährungen ein mehr als fünffaches Investitionsvolumen
+im Vergleich zum Vorjahr zu verzeichnen.\footcite [] [] {Statista_Research_1}
+\\Um den Zusammenhang zu erläutern: Kryptowährungen validieren Ihre Transaktionen durch die Nutzung der 
 Blockchain-Technologie. Bei diesem Validierungsprozess werden neue Datenblöcke in einer Datenbank gespeichert und von anderen
-Nutzern überprüft durch eine Prüfsumme die dabei gebildet werden können muss. Um diese Prüfsumme berechnen zu können
-Nutzen sogenannte "Krypto-Miner" primär GPU-Leistung.\footcite [Vgl.] [S.259-273] {Arslanian.2022}
-\\Da große Investitionen für das Kryptomining getätigt werden hat sich ein neuer Markt mit einer großen Nachfrage gebildet, der
+Nutzern überprüft durch eine Prüfsumme, die dabei gebildet werden können muss. Um diese Prüfsumme berechnen zu können
+nutzen sogenannte "Krypto-Miner" primär GPU-Leistung.\footcite [Vgl.] [S.259-273] {Arslanian.2022}
+\\Da große Investitionen für das Kryptomining getätigt werden, hat sich ein neuer Markt mit einer großen Nachfrage gebildet, der
 GPUs benötigt.
 \\ \\
 %Ein Ende in Sicht?
 %https://www.gartner.com/en/newsroom/press-releases/2021-05-12-gartner-says-global-chip-shortage-expected-to-persist-until-second-quarter-of-2022
 %
-Allerdings gibt es Faktengestütze Prognosen, welche behaupten das der Halbleitermangel nicht zu lange anhalten wird. 
-Nach Gartner war die Prognose auf das zweite Quartal 2022 geschätzt, auch wenn dies nicht im vollen Umfang eingetreten ist sind 
+Allerdings gibt es faktengestütze Prognosen, welche behaupten, dass der Halbleitermangel nicht zu lange anhalten wird. 
+Nach Gartners Prognose für das zweite Quartal 2022 sollte sich der Halbleitermangel verringern, auch wenn dies nicht im vollen Umfang eingetreten ist, sind 
 die Argumente für die weitere Zukunft nicht irrelevant.\\
-Angeführt wird das durch den Halbleitermangel nun die Lieferkette enger überwacht wird.
-Daraus resultierend wird mehr transparenz und vorinverstionen um die Lieferung garantieren zu können. 
+Angeführt wird, dass durch den Halbleitermangel nun die Lieferkette enger überwacht wird.
+Daraus resultierend werden mehr Transparenz und Vorinverstionen geschaffen, um die Lieferungen garantieren zu können. 
 Ebenfalls möchte man auch die Abnahme von mehreren Lieferanten bevorzugen, anstatt von einem Lieferanten abhängig zu sein.
-Diese Faktoren sollen Langfristig Sicherheit in der Lieferkette schaffen. \footcite [Vgl.] [] {Gartner.2021}
+Diese Faktoren sollen langfristig Sicherheit in der Lieferkette bieten. \footcite [Vgl.] [] {Gartner.2021}
 
 \chapter{Gaming as a Service}
 \label{sec: Gaming as a Service}
@@ -374,25 +374,24 @@ Spezifikationen eines Computers. \footcite [Vgl.] [] {Ojala.2011}
 \chapter{GPU as a Service}
 \label{sec:GPU as a Service}
 
-Außerhalb von Gaming as a Service gibt es weitere Service 
-Möglichkeiten die ebenfalls GPU as a Service beanspruchen bzw. inkludieren. Wachsende Märkte dafür sind
-das rendern von 3D-Modellen und animierten Videos, 
-wie auch deep learning model training für KIs. 
-\\Im folgenden Kapitel wird erläutert werden wie GPU as a Service Anbieter Ihren Service 
-realisieren können und Qualität schaffen mit verschiedenen Methoden. 
-Wie auch die Einsatzgebiete feststellen und identifizieren in 
-welchen von diesen Einsatzgebiete sich eine Cloud-Lösung eignet.
+Außerhalb von Gaming as a Service gibt es weitere Service-Möglichkeiten die ebenfalls GPU as a 
+Service beanspruchen bzw. inkludieren. Wachsende Märkte dafür sind
+das Rendern von 3D-Modellen und animierten Videos, 
+wie auch Deep-Learning-Model-Training für KIs. 
+\\Im folgenden Kapitel wird erläutert werden, wie GPU as a Service-Anbieter Ihren Service 
+realisieren können und Qualität mit verschiedenen Methoden schaffen. Wie auch Einsatzgebiete 
+für Cloud-Lösungen festgestellt und identifiziert werden.
 
 \section{Funktionsweise}
 \label{sec: Funktionsweise}
 
-Bei der Dienstleistung Inanspruchnahme werden von die von einem geforderten
-Prozesse, wie z.B. das rendern von 3D-Modellen, durch die Rechenleistung des 
+Bei der Dienstleistungsinanspruchnahme werden die von einem Nutzer geforderten
+Prozesse, wie z.B. das Rendern von 3D-Modellen, durch die Rechenleistung des 
 Anbieters verarbeitet. Im Gegensatz zu der Privatnutzung bei der nur eine GPU genutzt wird, 
-verwenden GPU a as Service Anbieter mehrere GPUs. 
-Allerdings da GPUs nur als Co-Prozessoren in solchen Systemen genutzt werden, 
-können diese nicht eigenständig betrieben werden sondern benötigen einen zentrales 
-Betriebssystem, auch Kernel bezeichnet. Üblicherweise wird das skalierbar angewendet mit einer
+verwenden GPU a as Service-Anbieter mehrere GPUs. 
+Allerdings, da GPUs nur als Co-Prozessoren in solchen Systemen genutzt werden, 
+können diese nicht eigenständig betrieben werden, sondern benötigen ein zentrales 
+Betriebssystem, welches auch als Kernel bezeichnet. Üblicherweise wird dies skalierbar angewendet mit einer
 Vielzahl an Kernels, welche eine Vielzahl an GPUs besitzen.\footcite [Vgl.] [] {Wang.2017}
 \\% auskommentiert für Textmessen
 \begin{figure}[h]
@@ -401,29 +400,30 @@ Vielzahl an Kernels, welche eine Vielzahl an GPUs besitzen.\footcite [Vgl.] [] {
   \caption[Wang u. a. (2017)]{Current time-multiplexed solution}
 \end{figure}
 \\%
-Es gibt verschiedene Methoden diese Prozesse darauf zu verarbeiten. Eine Methode davon 
+Es gibt verschiedene Methoden, diese Prozesse zu verarbeiten. Eine Methode davon 
 ist das Zeit-Multiplexverfahren. Bei diesem Verfahren werden mehrere Prozesse auf die Kernels
 sequenziell aufgeteilt und verarbeitet, wie in Abbildung 5.1 zu sehen. Dieses Methode 
 hat keinen direkten Mehrwert in Bezug zur Verarbeitungseffizienz, allerdings verhindert 
-sie das Prozesse Kernels unnötig blockieren. \footcite [Vgl.] [] {Wang.2017}
+sie, dass Prozesse Kernels unnötig blockieren können. \footcite [Vgl.] [] {Wang.2017}
 \\ \\
 %Andere Methode erklären aus der selben Quelle
-Ein anderer Ansatz um Konstanz zu schaffen ist das das man die Kernels über Software zu einen Kernel fusioniert. 
-Das ist vergleichbar mit dem für Festplatten verwendete "redundant array of independent disk"-System auch abgekürzt genannt RAID, 
-welches gängiger bekannt ist. Durch das fusionieren der Kernels über die Software kann eine 
+Ein anderer Ansatz, um Konstanz zu schaffen, ist, dass man die Kernels über Software zu einem Kernel fusioniert. 
+Das ist vergleichbar mit dem für Festplatten verwendeten "redundant array of independent disk"-System, auch abgekürzt RAID genannt, 
+welches gängiger bekannt ist. Durch das Fusionieren der Kernels über die Software kann eine 
 konstante Leistung gewährleistet werden.
-Ebenfalls auch eine fairness zwischen allen Leistungsabnehmern, da es keine Situation geben kann einen schlechten Kernel erwischt zu haben.\footcite [Vgl.] [] {Wang.2017}
+Ebenfalls, um eine Fairness zwischen allen Leistungsabnehmern zu schaffen, 
+da es keine Situation geben kann, einen leistungsschwächeren Kernel zugewiesen zu bekommen.\footcite [Vgl.] [] {Wang.2017}
 \\ \\
-Eine quasi gegenteilige Methode die Kernels in verschiedene Partitionen aufzuteilen, anstatt Sie zu fusionieren.
-Wiedermal vergleichbar wie man auch mit Festplatten umgehen kann. Die Leistung des Kernel wird 
-in verschiedene Partitionen aufgeteilt. Diese können dann je nach Monetarisierungsmodel 
-vermietet werden für einen Zeitraum oder auf einer Bedarfsbasis. Daraus besteht der Vorteil, 
-dass Nutzer des Services Ihren Bedarf selbst definieren können und garantiert diese Leistung 
+Eine quasi gegenteilige Methode, die Kernels in verschiedene Partitionen aufzuteilen, anstatt Sie zu fusionieren.
+Wieder mal vergleichbar, wie man auch mit Festplatten umgehen kann. Die Leistung des Kernel wird 
+in verschiedene Partitionen aufgeteilt. Diese können dann je nach Monetarisierungsmodell 
+vermietet werden, für einen Zeitraum oder auf einer Bedarfsbasis. Daraus entsteht der Vorteil, 
+dass Nutzer des Services ihren Bedarf selbst definieren können und garantiert diese Leistung 
 in Anspruch nehmen können. \footcite [Vgl.] [] {Wang.2017}
 \\ \\
 Es gibt neben diesen Methoden weitere Maßnahmen für die Qualitätssicherung des GPU as a Service Modells. 
-Allerdings würden diese sich zu weit vertiefen und über dem Ziel dieser Arbeit hinaus gehen. 
-Für eine weitere vertiefung ist die Arbeit von Wang u. a., “Quality of Service Support for Fine-Grained Sharing on GPUs”. empfehlen.
+Allerdings würden diese sich zu weit vertiefen und über das Ziel dieser Arbeit hinausgehen. 
+Für eine weitere Vertiefung ist die Arbeit von Wang u.a., “Quality of Service Support for Fine-Grained Sharing on GPUs”. zu empfehlen.
 
 \section{Einsatzgebiete}
 \label{sec: Einsatzgebiete}
@@ -433,40 +433,40 @@ Für eine weitere vertiefung ist die Arbeit von Wang u. a., “Quality of Servic
 %wie auch deep learning model training für KIs.
 
 Die Einsatzgebiete sind weitreichend und können auf zwei Bedarfsmethoden eingeteilt werden.
-Einmal in Schüben, in denen ein festes Ziel und der Aufwand definiert wird, welcher der Prozess erreichen soll.
-Beispiele dafür sind rendern von 3D-Modellen und animierten Videos.
+Einmal in Schüben, in denen ein festes Ziel und der Aufwand definiert werden, welche der Prozess erreichen soll.
+Beispiele dafür sind Rendern von 3D-Modellen und animierten Videos.
 \\ 
-Um dieses Beispiele auszuführen, wenn ein 3D-Modell dargestellt wird. Das 3D-Modell besteht aus Matrixoperationen die von GPUs 
-in der Regel berechnet werden. Meist mit dem Ziel diese realitätsgeträu und logisch in einer Umgebung darzustellen.
-Dieses Beispiel lässt erweitern auf animierte Videos, bei diesen dann eine veränderte Version des Vorgängermodells oder ein 
-vollkommen anderes Modell für jedes Bild das gezeigt wird. \footcite [Vgl.] [] {Loop.2006}
+Um dieses Beispiel auszuführen: Wenn ein 3D-Modell dargestellt wird, besteht es aus Matrixoperationen, die von GPUs 
+in der Regel berechnet werden. Dies hat meist das Ziel, diese realitätsgetreu und logisch in einer Umgebung darzustellen.
+Dieses Beispiel lässt sich auf animierte Videos erweitern, bei denen dann eine veränderte Version des Vorgängermodells oder ein 
+vollkommen anderes Modell für jedes Bild im Video dargestellt wird. \footcite [Vgl.] [] {Loop.2006}
 \\ \\
-Ebenso ist es möglich, dass optinal mit einem Ziel aber unbekannten Aufwand, so ein Prozess ausgeführt wird. 
-In diesem Fall wird eine konstante Rechenleistung benötigt wird.
-Beispiele dafür sind deep learning modelle für KIs oder Gaming as a Service.
+Ebenso ist es möglich, dass mit einem optionalen Ziel, aber unbekannten Aufwand, so ein Prozess ausgeführt wird. 
+In diesem Fall wird eine konstante Rechenleistung benötigt.
+Beispiele dafür sind Deep-Learning-Modelle für KIs oder Gaming as a Service.
 \\
-Um hier Ebenfalls ein Beispiel anzuführen, wenn Gaming as a Service Dienste in Anspruch genommen.
-Bei diesem Service ist kein Ziel festgelegt, da auch nicht ein konkreter Prozess vorgegeben wird.
-Anhand der Eingaben des Nutzers variert die benötige Visualsierung und Spielelogik. Da die Eingaben 
-nicht vorher konkret bekannt sind, wird besteht ein konstanter Bedarf an Rechenleistung um auf die Eingaben 
+Um auch hier ein Beispiel anzuführen, falls Gaming as a Service-Dienste in Anspruch genommen wird.
+Bei diesem Service ist kein Ziel festgelegt, da auch kein konkreter Prozess vorgegeben ist.
+Anhand der Eingaben des Nutzers variiert die benötige Visualsierung und Spielelogik. Da die Eingaben 
+nicht vorher konkret bekannt sind, besteht ein konstanter Bedarf an Rechenleistung um auf die Eingaben 
 reagieren zu können. Die Rechenleistung wird benötigt bis der Nutzer das Spiel beendet. \footcite [Vgl.] [] {Lattuada.2022} \footcite [Vgl.] [] {Wang.2017} \footcite [Vgl.] [] {Loop.2006}
 %Schlussfolgerung aus eigenem Wissen und den Papers
 
 \section{Vergleich eigene GPU und GPU in der Cloud}
 \label{sec:Vergleich eigene GPU und GPU in der Cloud}
 
-Nach dem angeführten Informationen lässt sich folgendes feststellen. 
-Der Bedarf an GPU Rechenleistung ist im konstanten Wachstum für verschiedene Märkte. Die GPU as a Service Anbieter 
-können Ihre Systeme entsprechend dem Monetarisierungsmodel und dem Leistungsprioritäten aufstellen. Dabei sind das 
-keine neue Methoden und vergleichbar mit der Massenspeicherverwaltung. Je nach geplanter Nutzung werden GPUs 
-entweder in Schüben oder Konstant Rechenleistung abverlangt.\\ \\
-Nach unserem ermessen ist besonders die Entscheidung zwischen der eigenen GPU oder GPU as a Service abhängig der 
-benötigten Rechenleistung und der Verfügbarkeit. In der Annahme das der Dienstleister des GPU as a Serive permanent 
-Verfügbar ist. Sollten für Prozesse welche in Schüben erfolgen GPU as a Service ein attraktives Angebot sein, da 
-diese mit der großen Rechenleistung diese Prozesse in kurzer Zeit abgeschlossen werden können.\\ \\
-Eine eigene GPU ist attraktiv eher im Fall von Konstant benötigter Rechenleistung. Wenn eine Verfügbare GPU in der Lage 
-die benötigte Rechenleistung zu erbringen. Andernfalls ist GPU as a Service ebenfalls eine Lösung, besonders in Zeiten 
-in denen die Preise von GPUs mit dem Halbleitermangel gestigen sind.
+Nach den angeführten Informationen lässt sich Folgendes feststellen:  
+Der Bedarf an GPU Rechenleistung ist im konstanten Wachstum für verschiedene Märkte. Die GPU as a Service-Anbieter 
+können Ihre Systeme entsprechend dem Monetarisierungsmodell und den Leistungsprioritäten aufstellen. 
+Dabei handelt es sich nicht um neue Methoden, sondern um etwas mit der Massenspeicherverwaltung Vergleichbaren. 
+Je nach geplanter Nutzung werden GPUs entweder in Schüben oder mit konstanter Rechenleistung beansprucht.\\ \\
+Nach unserem Ermessen spielt besonders bei der Entscheidung zwischen der eigenen GPU und GPU as a Service die 
+benötigte Rechenleistung und die Verfügbarkeit des Services eine Rolle. Unter der Annahme, dass der Dienstleister des GPU as a Serive permanent 
+verfügbar ist. Für Prozesse, welche in Schüben erfolgen und große Rechenleistung benötigen, ist GPU as a Service ein attraktives Angebot.
+Diese können dadurch in kurzer Zeit abgeschlossen werden.\\ \\
+Eine eigene GPU ist attraktiver im Fall von konstant benötigter Rechenleistung, wenn eine verfügbare GPU in der Lage ist, 
+die benötigte Rechenleistung zu erbringen. Andernfalls ist GPU as a Service ebenfalls eine Lösung, besonders in Zeiten,
+in denen die Preise von GPUs mit dem Halbleitermangel gestiegen sind.
 
 \chapter{Marktvorhersage}
 \label{sec:Marktvorhersage}
