@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  10 JUN 2022 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.18)  10 JUN 2022 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -822,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--249
 
  <./Abbildungen/Martin_Kords_1.png>] [4 <./Abbildungen/voas1.png>]
 Overfull \hbox (3.33707pt too wide) in paragraph at lines 253--273
-\T1/phv/m/n/12 Um den Zu-sam-men-hang zu er-läu-tern, Kryp-towäh-run-gen va-li-die-ren Ih-re Trans-ak-tio-nen durch
+\T1/phv/m/n/12 Um den Zu-sam-men-hang zu er-läu-tern: Kryp-towäh-run-gen va-li-die-ren Ih-re Trans-ak-tio-nen durch
  []
 
 
@@ -839,20 +839,20 @@ chapter 5.
 <Abbildungen/wang1.png, id=175, 217.31187pt x 128.48pt>
 File: Abbildungen/wang1.png Graphic file (type png)
 <use Abbildungen/wang1.png>
-Package pdftex.def Info: Abbildungen/wang1.png  used on input line 335.
+Package pdftex.def Info: Abbildungen/wang1.png  used on input line 334.
 (pdftex.def)             Requested size: 304.23453pt x 179.87076pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--362
+Underfull \hbox (badness 10000) in paragraph at lines 323--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--362
+Underfull \hbox (badness 10000) in paragraph at lines 323--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--362
+Underfull \hbox (badness 10000) in paragraph at lines 323--362
 
  []
 
@@ -864,6 +864,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--389
  []
 
 [8]
+Overfull \hbox (5.8219pt too wide) in paragraph at lines 393--405
+\T1/phv/m/n/12 Re-chen-leis-tung ist im kon-stan-ten Wachs-tum für ver-schie-de-ne Märk-te. Die GPU as a Service-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 393--405
 
  []
@@ -927,14 +932,14 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  22501 strings out of 478614
- 440584 string characters out of 2854378
- 1113385 words of memory out of 3000000
+ 440585 string characters out of 2854378
+ 1113386 words of memory out of 3000000
  40305 multiletter control sequences out of 15000+600000
  510556 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10654b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\suphi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{D:/Programme/MikeTex/fonts/enc/dvips/base/8r.enc}<D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Programme/MikeTex/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (19 pages, 237774 bytes).
+Output written on LaTeX-Vorlage.pdf (19 pages, 237897 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
