@@ -22,50 +22,47 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: LaTeX-Vorlage-blx.bib
 Database file #2: literature.bib
-Warning--entry type for "Statista_Research_1" isn't style-file defined
---line 81 of file literature.bib
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 13 entries,
+You've used 10 entries,
             6399 wiz_defined-function locations,
-            1307 strings with 15605 characters,
-and the built_in function-call counts, 108328 in all, are:
-= -- 8356
-> -- 2682
-< -- 504
-+ -- 3969
-- -- 1638
-* -- 7317
-:= -- 12750
+            1279 strings with 14829 characters,
+and the built_in function-call counts, 74867 in all, are:
+= -- 5503
+> -- 2118
+< -- 405
++ -- 2981
+- -- 1301
+* -- 4719
+:= -- 8812
 add.period$ -- 0
-call.type$ -- 13
-change.case$ -- 241
-chr.to.int$ -- 162
-cite$ -- 24
-duplicate$ -- 10659
-empty$ -- 9130
-format.name$ -- 799
-if$ -- 20985
+call.type$ -- 10
+change.case$ -- 197
+chr.to.int$ -- 138
+cite$ -- 18
+duplicate$ -- 7858
+empty$ -- 6122
+format.name$ -- 591
+if$ -- 14369
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 25
 missing$ -- 0
-newline$ -- 467
-num.names$ -- 644
-pop$ -- 4430
+newline$ -- 349
+num.names$ -- 501
+pop$ -- 3335
 preamble$ -- 1
-purify$ -- 304
+purify$ -- 242
 quote$ -- 0
-skip$ -- 2479
+skip$ -- 1925
 stack$ -- 0
-substring$ -- 15877
-swap$ -- 2116
-text.length$ -- 395
-text.prefix$ -- 12
+substring$ -- 9694
+swap$ -- 1589
+text.length$ -- 309
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 429
+type$ -- 328
 warning$ -- 0
-while$ -- 1456
+while$ -- 1077
 width$ -- 0
-write$ -- 455
-(There was 1 warning)
+write$ -- 340
