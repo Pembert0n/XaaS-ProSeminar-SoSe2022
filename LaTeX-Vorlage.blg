@@ -23,15 +23,9 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: LaTeX-Vorlage-blx.bib
 Database file #2: literature.bib
 Biblatex version: 3.17
-<<<<<<< HEAD
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 19 entries,
-=======
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 18 entries,
->>>>>>> b57980c65e92884db8b004d550cb8416971f3adb
+You've used 19 entries,
             6399 wiz_defined-function locations,
             1343 strings with 16485 characters,
 and the built_in function-call counts, 139597 in all, are:
