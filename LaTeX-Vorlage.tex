@@ -156,7 +156,7 @@ Durch die zentralen Ressourcenteilung wird dem Mangel entgegengewirkt durch die 
 % chapter einleitung (end)
 
 \chapter{Anything as a Service - Cloud Computing} % (fold)
-\label{sec:Anything as a Service - Cloud Computing}
+\label{sec:Anything as a Service und Cloud Computing}
 
 %Zwischen den Gliederungspunkten sollten jeweils kurze Überleitungssätze stehen, damit man weiß, um was es inhaltlich in den folgenden Unterkapiteln geht.\footcite [Vgl.] []{GPL}
 
@@ -166,30 +166,60 @@ Durch die zentralen Ressourcenteilung wird dem Mangel entgegengewirkt durch die 
 \label{sec:Definition}
 
 %Bei den Gliederungspunkten immer auf eine Ausgewogenheit achten, damit eine gleichmäßige Gliederung gefördert werden kann. Sofern Abbildungen (wie Abbildung 1: Beispielbild) verwendet werden, müssen diese auch inhaltlich im Text erwähnt und erläutert werden, sowie ein Abbildungsverzeichnis erstellt werden.\footcite [Vgl.] [] {hhnwin}
-
+Everything/Anything as a Service: Oberbegriff für eine Kategorie an Services, die meist mit
+ Cloud Computing oder Remote Acces in Verbindung stehen. Unternehmensinterne Dienste Ressourcen sollen anderen Akteuren in einem
+ Dienstleistungsökosystem zur Verfügung gestellt werden. 
+ Der Service steht hier klar im Vordergrund, zur Umsetzung kommen Technologien, wie beispielsweise: Blockchain, Machine Learning, 
+ Distributed Ledger oder Cloud-Computing, zum Einsatz. In dieser Arbeit wird der Fokus auf das Cloud Computing gelegt.
+ \\ \\
+ Cloud Computing: Bei Cloud Computing handelt es sich um die Bereitstellung von IT-Dienstleistungen, wie 
+Speicherplatz, Rechenleistung, Datenbanken, über die Cloud, also das Internet. 
+Die zur Verfügung stehenden Ressourcen sind dabei skalierbar, können also an den tatsächlichen Bedarf angepasst werden. Die, für Cloud Computing, gängigen Servicemodelle werden
+in Kapitel 2.2 genauer behandelt.
+\\ \\
+Die essenziellen Features/Eigenschaften einer Cloud Computing Umgebung sind: \\
+- On-demand self-service: Rechenleistung kann beliebig erweitert und reduduziert werden ohne, 
+dass eine menschliche Einmischung nötig wird \\
+- Broad-Network Acces: Der Zugriff des Kunden auf Ressourcen erfolgt über ein Netzerk
+, Internet; evtl (firmen)internes Netzwerk, dabei werden standardisierte Mechanismen 
+und Protokolle genutzt. \\
+- Resource Pooling: virtuelle und physische Ressourcen können in einem "Pool" zusammengefasst werden,
+ und dynamisch, dem Bedarf entsprechend, an Kunden bzw. Konsumenten zugeteilt werden. \\
+- Elasticity: Aus Sicht des Kunden, bietet der Anbieter/Betreiber unlimitierte Ressourcen an,
+ die zu jeder Zeit in jeder belibeigen Menge erworben/eingekauft werden können. \\
+- Measured Service: Der Service und die Ressourcen des Cloud Computing sind für ein pay per use Geschäftsmodell optimimert. Dadurch werden Ressourcen und Service transparent für Kunden und Provider überwacht, kontrolliert und abgerechnet 
 % section unterkapitel1 (end)
 
-\section{Typische Servicemodelle} % (fold)
-\label{sec:Typische Servicemodelle}
+\section{Cloud Computing Servicemodelle} % (fold)
+\label{sec:Cloud Computing Servicemodelle}
 
 %Untergliederungen nur in der Mehrzahl erstellen, d.h. nie 1 Unterkapitel alleine stehen lassen.
 %In gleicher Art und Weise wie Abbildungen dargestellt und beschriftet werden, verhält es sich mit Tabellen.
-
+Infrastructure as a Service: Angebot von virtualisierter Rechenleistung, Speicher, Hardware Ressourcen, die genutzt werden können, um beliebige Softare zu betreiben.
+Die Infrastruktur ist dabei bis zu einem gewissen Grad vom Nutzer konfigurierbar; Auswahl des Betriebssystems, Auswahl der installierten Anwendungen
+\\ \\
+Software as a Service: Hier erhält der Nutzer Zugriff auf Software-Applikationen, die auf cloudbasierter Infrastruktur betrieben werden.
+Manuelle Konfiguration gegebenenfalls in der Applikation möglich. Auf Betriebssystem oder verwendete Speicherressourcen hat der Nutzer keinen Zugriff.
+\\ \\
+Platform as a Service: Bei Platform as a Service wird dem Nutzer eine Plattform zur Entwicklung von Webanwendungen zur Verfügung gestellt. Dabei kann es sich 
+um Laufzeitumgebungen und um Entwicklungsumgebungen handeln. Der Nutzer hat hier keine Kontrolle über die zugrunde liegende Infrastruktur, 
+das Betriebssystem oder Speicherressourcen, kann aber installierte Applikationen verwalten und die Laufzeitumgebung konfigurieren.
 % section unterkapitel1 (end)
 
-\subsection{IaaS: Infrastructure as a Service}
-\label{sec:IaaS: Infrastructure as a Service}
+\section{Cloud Computing Einsatzmodelle} % (fold)
+\label{sec:Cloud Computing Einsatzmodelle}
 
-%Inhalt
-
-\subsection{SaaS: Software as a Service}
-\label{sec:SaaS: Software as a Service}
-
-%Inhalt
-
-\subsection{PaaS: Plattform as a Service}
-\label{sec:PaaS: Plattform as a Service}
-
+private cloud: Eine Private Cloud wird exklusiv von einem Kunden, bzw. einem Kundenunternehmen, genutzt.
+ Dabei muss die Cloud nicht von diesem Unternehmen verwaltet werden.
+ \\ \\
+public cloud: Die Ressourcen einer Public Cloud sind für die Öffentlichkeit zugänglich.
+ Die Ressourcen gehören und werden verwaltet von einem Unternehmen, das die Cloud Services anbietet.
+ \\ \\ 
+community cloud: Die Infrastruktur der Cloud wird von mehreren Unternehmen geteilt.
+ Die Unternehmen haben meist gemeinsame Interessen bzw. Risiken/Bedenken, wie z.B. Sicherheitsbedenken
+  (DSGVO-Konformität).  
+\\ \\  
+hybrid cloud: Kombination aus mindestens 2 Modellen.
 
 \section{Vor- und Nachteile}
 \label{Vor- und Nachteile}
@@ -472,6 +502,34 @@ in denen die Preise von GPUs mit dem Halbleitermangel gestiegen sind.
 \label{sec:Marktvorhersage}
 
 %Inhalt
+Text
+\\% auskommentiert für Textmessen
+\begin{figure}[h]
+ \centering
+  \includegraphics[scale=0.12]{Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png} 
+  \caption[Newzoo]{Umsatz mit Cloud Gaming 2019-2021 und Prognose für 2024}
+\end{figure}
+\\%
+
+Text
+\\% auskommentiert für Textmessen
+\begin{figure}[h]
+ \centering
+  \includegraphics[scale=0.12]{Abbildungen/Newzoo_Global_Players_Forecast.png} 
+  \caption[Newzoo]{Umsatz mit Cloud Gaming 2019-2021 und Prognose für 2024}
+\end{figure}
+\\%
+
+Text
+\\% auskommentiert für Textmessen
+\begin{figure}[h]
+ \centering
+  \includegraphics[scale=0.12]{Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png} 
+  \caption[Newzoo]{Umsatz mit Cloud Gaming 2019-2021 und Prognose für 2024}
+\end{figure}
+\\%
+
+
 
 \chapter{Fazit und Ausblick} % (fold)
 \label{sec:fazit}
