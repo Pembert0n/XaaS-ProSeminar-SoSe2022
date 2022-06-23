@@ -11,23 +11,23 @@
 \contentsline {section}{\numberline {2.1}Definition}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Cloud Computing Servicemodelle}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Cloud Computing Einsatzmodelle}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Vor- und Nachteile}{3}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Knappheit von Grafikkarten}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Preisentwicklung}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Ursache Halbleitermangel und Krypto-Mining}{6}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Gaming as a Service}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Funktionsweise}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Anbietervergleich}{9}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Voraussetzung}{9}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Angebot}{10}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Preis}{10}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}GPU as a Service}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Funktionsweise}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einsatzgebiete}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{14}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Marktvorhersage}{15}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{17}{chapter.7}%
+\contentsline {section}{\numberline {2.4}Vor- und Nachteile}{4}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Knappheit von Grafikkarten}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Preisentwicklung}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ursache Halbleitermangel und Krypto-Mining}{7}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Gaming as a Service}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Funktionsweise}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Anbietervergleich}{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Voraussetzung}{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Angebot}{11}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Preis}{11}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Hardwarevorraussetzung um Usability zu gewährleisten}{12}{section.4.3}%
+\contentsline {chapter}{\numberline {5}GPU as a Service}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Funktionsweise}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Einsatzgebiete}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Vergleich eigene GPU und GPU in der Cloud}{15}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Marktvorhersage}{16}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{20}{chapter.7}%
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{vii}{chapter*.5}%
 \contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{ix}{chapter*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
