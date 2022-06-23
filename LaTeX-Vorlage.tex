@@ -170,14 +170,14 @@ Everything/Anything as a Service: Oberbegriff für eine Kategorie an Services, d
  Cloud Computing oder Remote Acces in Verbindung stehen. Unternehmensinterne Dienste Ressourcen sollen anderen Akteuren in einem
  Dienstleistungsökosystem zur Verfügung gestellt werden. 
  Der Service steht hier klar im Vordergrund, zur Umsetzung kommen Technologien, wie beispielsweise: Blockchain, Machine Learning, 
- Distributed Ledger oder Cloud-Computing, zum Einsatz. In dieser Arbeit wird der Fokus auf das Cloud Computing gelegt.
+ Distributed Ledger oder Cloud-Computing, zum Einsatz. In dieser Arbeit wird der Fokus auf das Cloud Computing gelegt. (Krcmar)
  \\ \\
  Cloud Computing: Bei Cloud Computing handelt es sich um die Bereitstellung von IT-Dienstleistungen, wie 
 Speicherplatz, Rechenleistung, Datenbanken, über die Cloud, also das Internet. 
 Die zur Verfügung stehenden Ressourcen sind dabei skalierbar, können also an den tatsächlichen Bedarf angepasst werden. Die, für Cloud Computing, gängigen Servicemodelle werden
-in Kapitel 2.2 genauer behandelt.
+in Kapitel 2.2 genauer behandelt. (Krcmar)
 \\ \\
-Die essenziellen Features/Eigenschaften einer Cloud Computing Umgebung sind: \\
+Die essenziellen Features/Eigenschaften einer Cloud Computing Umgebung sind: (Dangelo) \\
 - On-demand self-service: Rechenleistung kann beliebig erweitert und reduduziert werden ohne, 
 dass eine menschliche Einmischung nötig wird \\
 - Broad-Network Acces: Der Zugriff des Kunden auf Ressourcen erfolgt über ein Netzerk
@@ -199,7 +199,9 @@ Infrastructure as a Service: Angebot von virtualisierter Rechenleistung, Speiche
 Die Infrastruktur ist dabei bis zu einem gewissen Grad vom Nutzer konfigurierbar; Auswahl des Betriebssystems, Auswahl der installierten Anwendungen
 \\ \\
 Software as a Service: Hier erhält der Nutzer Zugriff auf Software-Applikationen, die auf cloudbasierter Infrastruktur betrieben werden.
-Manuelle Konfiguration gegebenenfalls in der Applikation möglich. Auf Betriebssystem oder verwendete Speicherressourcen hat der Nutzer keinen Zugriff.
+Manuelle Konfiguration gegebenenfalls in der Applikation möglich. Auf Betriebssystem oder verwendete Speicherressourcen hat der Nutzer keinen Zugriff. 
+Gaming as a Service, was in Kapitel 4 genauer behandelt wird, kann als Unterkategorie von SaaS angesehen werden, bei der in der Hardware ein besonderer Fokus auf die 
+GPU-Leistung gelegt wird (LNCS).
 \\ \\
 Platform as a Service: Bei Platform as a Service wird dem Nutzer eine Plattform zur Entwicklung von Webanwendungen zur Verfügung gestellt. Dabei kann es sich 
 um Laufzeitumgebungen und um Entwicklungsumgebungen handeln. Der Nutzer hat hier keine Kontrolle über die zugrunde liegende Infrastruktur, 
@@ -502,7 +504,11 @@ in denen die Preise von GPUs mit dem Halbleitermangel gestiegen sind.
 \label{sec:Marktvorhersage}
 
 %Inhalt
-Text
+Die Gaming-Industrie ist in den letzten Jahren stetig gewachsen und wird auch in Zukunft weiter
+wachsen. In Abbildung 6.1 werden die Umsätze der Gaming Industrie mit einer Prognose für das Jahr 2024 dargestellt.
+Nach Newzoo betrug der Umsatz der gesamten Gaming-Industrie im Jahr 2021 192,7 Milliarden
+US-Dollar und wird bis 2024 auf 222,6 Milliarden US-Dollar ansteigen. Von 2020 bis 2024 wird 
+von einem durchschnittlichem, jährlichem Wachstum in Höhe von 5,6 Prozent ausgegangen.
 \\% auskommentiert für Textmessen
 \begin{figure}[h]
  \centering
@@ -511,24 +517,69 @@ Text
 \end{figure}
 \\%
 
-Text
+Auch bei den jährlichen Spielerzahlen, geht Newzoo von einer Steigerung aus. Mit einer jährlichen 
+Wachstumsrate von 5.6 Prozent steigen die Spielerzahlen von 2,33 Milliarden Spielern, im Jahr 2015,
+zu einer Prognose von 3,32 Milliarden Spielern, für das Jahr 2024. Bemerkenswert an dieser Statistik
+ist die Aufschlüsselung der Spieler nach Endgeräten in 2022. Demnach ist ein Großteil der Spieler, 
+2,9 Milliarden, auf dem Handy aktiv. Die zweitmeisten Spieler, 1,4 Milliarden, nutzen einen PC, Während
+auf Konsolen, mit 900 Millionen aktiven Spielern, vergleichsweise wenige Spieler aktiv sind. 
+Die Summe dieser Zahlen stimmt nicht mit der Gesamtzahl an Spieler in 2022 überein, da ein Spieler 
+auf mehreren Endgeräten aktiv sein kann. 
+
+Im Jahr 2022 waren 94 Prozent aller Spieler auch auf dem Handy aktiv. Für das Cloud Gaming ist dies interessant,
+weil, durch die Verlagerung der Rechenpower vom Endgerät in die Cloud, immer mehr Spiele auf dem Handy spielbar werden, für
+die in der Vergangeheit ein leistungsstarker PC oder eine Konsole benötigt wurden. So kann sich in Zukunft für Handyspieler 
+einer größere Auswahl an Spielen eröffnen. Gleichzeitig bekommen Publisher und GaaS-Provider Zugang zu einer neuen potentiellen
+Zielgruppe.
 \\% auskommentiert für Textmessen
 \begin{figure}[h]
  \centering
   \includegraphics[scale=0.12]{Abbildungen/Newzoo_Global_Players_Forecast.png} 
-  \caption[Newzoo]{Umsatz mit Cloud Gaming 2019-2021 und Prognose für 2024}
+  \caption[Newzoo]{Prognose Spielerzahlen bis 2024}
 \end{figure}
 \\%
 
-Text
+Im Bereich Cloud Gaming, bzw. Gaming as a Service, wird in den kommenden Jahren ein signifikanter/bemerkenswerter
+ Anstieg erwartet. Im Jahr 2021 nutzten etwa 21.7 Millionen Menschen Angebote im Bereich Cloud Gaming, dadurch konnte ein
+ Umsatz in Höhe von etwa 1,5 Milliarden US-Dollar erwirtschaftet werden (Newzoo Article). Die Prognose von Newzoo für das Jahr 
+ 2024 geht von einer Verdreifachung der Nutzerzahlen aus, während sich die Umsätze vervierfachen sollen. Damit würden knapp 60
+ Millionen Spieler Cloud Gaming Angebote nutzen und einen Umsatz in Höhe von 6,3 Milliarden US-Dollar generieren(Newzoo). Als Hauptgrund für den erwarteten Wachstum wird angeführt, dass sich die Technologie als rentabel und brauchbar bewiesen hat. Dadurch wurde der Weg geebnet, sodass 
+ der Markt in Zukunft schneller wachsen kann.
 \\% auskommentiert für Textmessen
 \begin{figure}[h]
  \centering
   \includegraphics[scale=0.12]{Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png} 
-  \caption[Newzoo]{Umsatz mit Cloud Gaming 2019-2021 und Prognose für 2024}
+  \caption[Newzoo]{Umsatz mit Cloud-Gaming 2019-2021; Prognose für 2024}
 \end{figure}
 \\%
 
+Es gibt viele aktuelle Cloud-Gaming Trends, die zu diesen optimistischen Prognosen führen. So konnten Cloud Gaming Provider 
+Partnerschaften mit Kommunikation und Internetanbietern in Südostasien, sowie Lateinamerika abschließen. Dadurch soll in diesen, 
+ohnehin bereits wachsenden, Gaming Märkten Cloud Gaming gestärkt werden (Newzoo). 
+
+Aber auch die anhaltend hohen Preise im Grafikkartenmarkt
+spielen eine Rolle. Endnutzer können, oder wollen, sich die hohen Preise auf dem Resellermarkt oft nicht leisten, während es nahezu 
+unmöglich ist eine Grafikkarte zum Listenpreis erwerben zu können. Unternehmen haben hier den Vorteil, dass die Hardware eine Investition darstellt.
+Nach einer gewissen Zeit, abhängig von Geschäftsmodell und Nutzerzahlen, werden sich die Investitionen ammortisiert haben und übrig 
+bleibt ein neues oder erweitertes Geschäftsfeld in dem zukünftig Gewinne erzielt werden können.
+
+Außerdem sollen Cloud Gaming angebote für Smart TVs erweitert werden. NVIDIA ist Partnerschaften mit LG und Samsung eingegangen 
+um GeForce NOW, das NVIDIA eigene GaaS Angebot, auf die neuen Smart TVs zu bringen. Auch Tencent und Boosteroid konnten sich 
+Kollaborationen mit TV-Herstellern sichern, um deren Angebot in diesem Teilbereich auszubauen (Newzoo).
+
+Auch kleinere Firmen können Erfolge im Cloud Gaming vermerken. Sie haben zwar kein so hohes Budget, wie die großen Tech-Unternehmen,
+können dafür aber oft mit Innovation überzeugen. Diese kleineren können von den größeren Firmen aufgekauft werden oder fusionieren.
+Dadurch ergibt sich eine Konsolidierung des Marktes und es entsteht ein besseres, attraktivers Angebot für den Endnutzer (Newzoo).
+
+Es wird erwartet, dass größere Player in den Cloud Gaming Markt einsteigen. Netflix hat bereits Spiele zu ihrem bestehenden Angebot
+hinzugefügt. Dieses Angebot könnte in Zukunft erweitert werden. Auch bei Facebook Gaming ist eine Erweiterung des Angebots, auch hin zu
+größeren Titeln, denkbar(Newzoo).
+
+In einem Interview mit Newzoo äußerten sich Verantwortliche von Utomik, Boosteroid und CareGame durchweg positiv über die Zukunftsaussichten
+der jeweiligen Firmen. Auch wenn sich weiterhin einige Herausforderungen stellen. Die größte Herausforderung in der Vergangenheit war es 
+die optimale Balance zwischen technischer Performance, Flexibilität und Kosten zu finden. Einige Firmen mussten Projekte einstellen, weil 
+sie daran scheiterten, so zum Beispiel Magenta Gaming der deutschen Telekom. Die optimale Balance zu finden wird auch in Zukunft eine
+der schwierigsten Herausforderungen bleiben. 
 
 
 \chapter{Fazit und Ausblick} % (fold)
