@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.23)  24 JUN 2022 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.23)  24 JUN 2022 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,127 +857,130 @@ LaTeX Warning: Citation 'Riasanow.2020' on page 3 undefined on input line 243.
 LaTeX Warning: Citation 'Riasanow.2020' on page 3 undefined on input line 246.
 
 
-LaTeX Warning: Citation 'Soliman.2013' on page 3 undefined on input line 248.
+LaTeX Warning: Citation 'MoroVisconti.2022' on page 3 undefined on input line 247.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--250
-
- []
+LaTeX Warning: Citation 'Soliman.2013' on page 3 undefined on input line 249.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--250
+Underfull \hbox (badness 10000) in paragraph at lines 232--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--250
+Underfull \hbox (badness 10000) in paragraph at lines 232--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--250
+Underfull \hbox (badness 10000) in paragraph at lines 232--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--251
 
  []
 
 [3]
 
-LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 256.
+LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 257.
 
 
-LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 259.
+LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 260.
 
 
-LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 264.
+LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 265.
 
 
-LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 269.
+LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 270.
 
 
-LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 272.
+LaTeX Warning: Citation 'Almubaddel.2016' on page 4 undefined on input line 273.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--273
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--273
+Underfull \hbox (badness 10000) in paragraph at lines 255--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--273
+Underfull \hbox (badness 10000) in paragraph at lines 255--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--273
+Underfull \hbox (badness 10000) in paragraph at lines 255--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--274
 
  []
 
 [4]
 chapter 3.
-<Abbildungen/Martin_Kords_1.png, id=169, 1003.75pt x 745.78625pt>
+<Abbildungen/Martin_Kords_1.png, id=171, 1003.75pt x 745.78625pt>
 File: Abbildungen/Martin_Kords_1.png Graphic file (type png)
 <use Abbildungen/Martin_Kords_1.png>
-Package pdftex.def Info: Abbildungen/Martin_Kords_1.png  used on input line 284.
+Package pdftex.def Info: Abbildungen/Martin_Kords_1.png  used on input line 285.
 (pdftex.def)             Requested size: 351.31776pt x 261.0291pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--296
+Underfull \hbox (badness 10000) in paragraph at lines 278--297
 
  []
 
-<Abbildungen/voas1.png, id=178, 490.08093pt x 335.75438pt>
+<Abbildungen/voas1.png, id=180, 490.08093pt x 335.75438pt>
 File: Abbildungen/voas1.png Graphic file (type png)
 <use Abbildungen/voas1.png>
-Package pdftex.def Info: Abbildungen/voas1.png  used on input line 307.
+Package pdftex.def Info: Abbildungen/voas1.png  used on input line 308.
 (pdftex.def)             Requested size: 441.06877pt x 302.17615pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--326
+Underfull \hbox (badness 10000) in paragraph at lines 301--327
 
  []
 
 [5
 
  <./Abbildungen/Martin_Kords_1.png>] [6 <./Abbildungen/voas1.png>]
-Overfull \hbox (3.33707pt too wide) in paragraph at lines 330--350
+Overfull \hbox (3.33707pt too wide) in paragraph at lines 331--351
 \T1/phv/m/n/12 Um den Zu-sam-men-hang zu er-läu-tern: Kryp-towäh-run-gen va-li-die-ren Ih-re Trans-ak-tio-nen durch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--350
+Underfull \hbox (badness 10000) in paragraph at lines 331--351
 
  []
 
 [7]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--360
+Underfull \hbox (badness 10000) in paragraph at lines 355--361
 
  []
 
-<Abbildungen/GaaS_1.png, id=237, 455.7025pt x 182.6825pt>
+<Abbildungen/GaaS_1.png, id=239, 455.7025pt x 182.6825pt>
 File: Abbildungen/GaaS_1.png Graphic file (type png)
 <use Abbildungen/GaaS_1.png>
-Package pdftex.def Info: Abbildungen/GaaS_1.png  used on input line 390.
+Package pdftex.def Info: Abbildungen/GaaS_1.png  used on input line 391.
 (pdftex.def)             Requested size: 410.12845pt x 164.4127pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--393
+Underfull \hbox (badness 10000) in paragraph at lines 366--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--393
+Underfull \hbox (badness 10000) in paragraph at lines 366--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--393
+Underfull \hbox (badness 10000) in paragraph at lines 366--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--393
+Underfull \hbox (badness 10000) in paragraph at lines 366--394
 
  []
 
@@ -985,116 +988,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--393
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 399.
-<Abbildungen/GaaS_2.png, id=250, 455.7025pt x 280.04625pt>
+(Font)              scaled to size 13.67995pt on input line 400.
+<Abbildungen/GaaS_2.png, id=252, 455.7025pt x 280.04625pt>
 File: Abbildungen/GaaS_2.png Graphic file (type png)
 <use Abbildungen/GaaS_2.png>
-Package pdftex.def Info: Abbildungen/GaaS_2.png  used on input line 410.
+Package pdftex.def Info: Abbildungen/GaaS_2.png  used on input line 411.
 (pdftex.def)             Requested size: 410.12845pt x 252.03928pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--417
+Underfull \hbox (badness 10000) in paragraph at lines 403--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--417
+Underfull \hbox (badness 10000) in paragraph at lines 403--418
 
  []
 
 [9 <./Abbildungen/GaaS_1.png>] [10 <./Abbildungen/GaaS_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 421--431
+Underfull \hbox (badness 10000) in paragraph at lines 422--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--450
+Underfull \hbox (badness 10000) in paragraph at lines 442--451
 
  []
 
 [11] [12]
 chapter 5.
-<Abbildungen/wang1.png, id=305, 217.31187pt x 128.48pt>
+<Abbildungen/wang1.png, id=307, 217.31187pt x 128.48pt>
 File: Abbildungen/wang1.png Graphic file (type png)
 <use Abbildungen/wang1.png>
-Package pdftex.def Info: Abbildungen/wang1.png  used on input line 476.
+Package pdftex.def Info: Abbildungen/wang1.png  used on input line 477.
 (pdftex.def)             Requested size: 304.23453pt x 179.87076pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--504
+Underfull \hbox (badness 10000) in paragraph at lines 466--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--504
+Underfull \hbox (badness 10000) in paragraph at lines 466--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--504
+Underfull \hbox (badness 10000) in paragraph at lines 466--505
 
  []
 
 [13
 
  <./Abbildungen/wang1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 512--531
+Underfull \hbox (badness 10000) in paragraph at lines 513--532
 
  []
 
 [14]
-Overfull \hbox (5.8219pt too wide) in paragraph at lines 535--547
+Overfull \hbox (5.8219pt too wide) in paragraph at lines 536--548
 \T1/phv/m/n/12 Re-chen-leis-tung ist im kon-stan-ten Wachs-tum für ver-schie-de-ne Märk-te. Die GPU as a Service-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--547
+Underfull \hbox (badness 10000) in paragraph at lines 536--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--547
+Underfull \hbox (badness 10000) in paragraph at lines 536--548
 
  []
 
 [15]
 chapter 6.
-<Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png, id=346, 4013.99625pt x 2257.43375pt>
+<Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png, id=348, 4013.99625pt x 2257.43375pt>
 File: Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png Graphic file (type png)
 <use Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png>
-Package pdftex.def Info: Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png  used on input line 560.
+Package pdftex.def Info: Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png  used on input line 561.
 (pdftex.def)             Requested size: 481.65877pt x 270.88036pt.
 
-Overfull \hbox (26.41466pt too wide) in paragraph at lines 560--561
+Overfull \hbox (26.41466pt too wide) in paragraph at lines 561--562
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--564
+Underfull \hbox (badness 10000) in paragraph at lines 553--565
 
  []
 
 
-LaTeX Warning: Citation 'Newzoo.2022' on page 16 undefined on input line 572.
+LaTeX Warning: Citation 'Newzoo.2022' on page 16 undefined on input line 573.
 
 
-LaTeX Warning: Citation 'Newzoo.2022' on page 16 undefined on input line 578.
+LaTeX Warning: Citation 'Newzoo.2022' on page 16 undefined on input line 579.
 
-<Abbildungen/Newzoo_Global_Players_Forecast.png, id=349, 4013.99625pt x 2257.43375pt>
+<Abbildungen/Newzoo_Global_Players_Forecast.png, id=351, 4013.99625pt x 2257.43375pt>
 File: Abbildungen/Newzoo_Global_Players_Forecast.png Graphic file (type png)
 <use Abbildungen/Newzoo_Global_Players_Forecast.png>
-Package pdftex.def Info: Abbildungen/Newzoo_Global_Players_Forecast.png  used on input line 582.
+Package pdftex.def Info: Abbildungen/Newzoo_Global_Players_Forecast.png  used on input line 583.
 (pdftex.def)             Requested size: 481.65877pt x 270.88036pt.
 
-Overfull \hbox (26.41466pt too wide) in paragraph at lines 582--583
+Overfull \hbox (26.41466pt too wide) in paragraph at lines 583--584
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--586
+Underfull \hbox (badness 10000) in paragraph at lines 566--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--586
+Underfull \hbox (badness 10000) in paragraph at lines 566--587
 
  []
 
@@ -1102,91 +1105,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--586
 
  <./Abbildungen/Newzoo_Global_Games_Revenue_Forecast-2.png>]
 
-LaTeX Warning: Citation 'Newzoo.2022' on page 17 undefined on input line 592.
+LaTeX Warning: Citation 'Fernandes.2022' on page 17 undefined on input line 590.
 
-<Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png, id=356, 4013.99625pt x 2257.43375pt>
+
+LaTeX Warning: Citation 'Fernandes.2022' on page 17 undefined on input line 592.
+
+
+LaTeX Warning: Citation 'Newzoo.2022' on page 17 undefined on input line 594.
+
+<Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png, id=360, 4013.99625pt x 2257.43375pt>
 File: Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png Graphic file (type png)
 <use Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png>
-Package pdftex.def Info: Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png  used on input line 596.
+Package pdftex.def Info: Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png  used on input line 598.
 (pdftex.def)             Requested size: 481.65877pt x 270.88036pt.
 
-Overfull \hbox (26.41466pt too wide) in paragraph at lines 596--597
+Overfull \hbox (26.41466pt too wide) in paragraph at lines 598--599
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--600
+Underfull \hbox (badness 10000) in paragraph at lines 588--602
 
  []
 
 [17 <./Abbildungen/Newzoo_Global_Players_Forecast.png>]
 
-LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 603.
+LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 605.
 
 
-LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 613.
+LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 615.
 
 
-LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 617.
+LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 619.
 
 
-LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 621.
+LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 623.
 
 
-LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 627.
+LaTeX Warning: Citation 'Fernandes.2022' on page 18 undefined on input line 629.
 
 
-LaTeX Warning: Citation 'Jadhav.2020' on page 18 undefined on input line 647.
+LaTeX Warning: Citation 'Jadhav.2020' on page 18 undefined on input line 649.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Overfull \hbox (0.37355pt too wide) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
+
+ []
+
+
+Overfull \hbox (0.37355pt too wide) in paragraph at lines 603--650
 \T1/phv/m/n/12 Care-Ga-me durch-weg po-si-tiv über die Zu-kunfts-aus-sich-ten der je-wei-li-gen Fir-men. Auch wenn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--648
+Underfull \hbox (badness 10000) in paragraph at lines 603--650
 
  []
 
 [18 <./Abbildungen/Newzoo_Global_Cloud_Gaming_Market_Cap_Forecast_March2022.png (PNG copy)>] [19] [20]
 chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--674
+Underfull \hbox (badness 10000) in paragraph at lines 653--676
 
  []
 
@@ -1195,21 +1204,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 651--674
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 695.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 697.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 695.
+(Font)              scaled to size 11.39996pt on input line 697.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 695.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 695.
+(Font)              scaled to size 11.39996pt on input line 697.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 697.
 (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (28.46652pt too wide) in paragraph at lines 695--695
+Overfull \hbox (28.46652pt too wide) in paragraph at lines 697--697
 [][]\T1/phv/m/n/12 Statista-Research-Department. \T1/phv/m/sl/12 Vo-lu-men der welt-wei-ten In-ves-ti-tio-nen in Blockchain-Technologien
  []
 
 
-Overfull \hbox (1.65674pt too wide) in paragraph at lines 695--695
+Overfull \hbox (1.65674pt too wide) in paragraph at lines 697--697
 \T1/phv/m/sl/12 und Kryp-towäh-run-gen von 2018 bis 2021\T1/phv/m/n/12 . \T1/phv/m/sc/12 url\T1/phv/m/n/12 : [][]$\T1/cmtt/m/n/12 https : / / de . statista . com / statistik /
  []
 
@@ -1218,12 +1227,12 @@ Overfull \hbox (1.65674pt too wide) in paragraph at lines 695--695
 ] [8]
 chapter without number
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--715
+Underfull \hbox (badness 10000) in paragraph at lines 711--717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--715
+Underfull \hbox (badness 10000) in paragraph at lines 711--717
 
  []
 
@@ -1245,18 +1254,18 @@ Package logreq Info: Writing requests to 'LaTeX-Vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22719 strings out of 478037
- 447800 string characters out of 5843053
- 1112374 words of memory out of 5000000
- 40734 multiletter control sequences out of 15000+600000
+ 22724 strings out of 478037
+ 447861 string characters out of 5843053
+ 1112415 words of memory out of 5000000
+ 40735 multiletter control sequences out of 15000+600000
  513286 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10673b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LaTeX-Vorlage.pdf (30 pages, 1174036 bytes).
+Output written on LaTeX-Vorlage.pdf (30 pages, 1174642 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 513 compressed objects within 6 object streams
+ 150 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

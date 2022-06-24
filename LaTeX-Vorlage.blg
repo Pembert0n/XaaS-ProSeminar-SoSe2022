@@ -21,6 +21,7 @@ Database file #1: LaTeX-Vorlage-blx.bib
 Database file #2: literature.bib
 Warning--I didn't find a database entry for "Riasanow.2020"
 Warning--I didn't find a database entry for "Froeschle.2014"
+Warning--I didn't find a database entry for "MoroVisconti.2022"
 Warning--I didn't find a database entry for "Soliman.2013"
 Warning--I didn't find a database entry for "Almubaddel.2016"
 Warning--I didn't find a database entry for "Newzoo.2022"
@@ -31,7 +32,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 19 entries,
             6399 wiz_defined-function locations,
-            1357 strings with 16665 characters,
+            1359 strings with 16699 characters,
 and the built_in function-call counts, 139597 in all, are:
 = -- 10136
 > -- 3925
@@ -70,4 +71,4 @@ warning$ -- 0
 while$ -- 1854
 width$ -- 0
 write$ -- 605
-(There were 7 warnings)
+(There were 8 warnings)
