@@ -352,11 +352,11 @@ Diese Faktoren sollen langfristig Sicherheit in der Lieferkette bieten. \footcit
 \chapter{Gaming as a Service}
 \label{sec: Gaming as a Service}
 
-Gaming-as-a-Service ist ein Zukunftstrend in der Spielindustrie. Je nach Entwicklung, steigt die benötigte Hardwareleistung 
+Gaming as a Service (kurz: GaaS) ist ein Zukunftstrend in der Spielindustrie. Je nach Entwicklung, steigt die benötigte Hardwareleistung 
 wie CPU, GPU, RAM, sowie Speicherplatz zum Installieren von Spielen stetig an. Hochwertige Spiele können nicht mehr von veralteten 
 Computern genossen werden, wodurch die Hardware regelmäßig aktualisiert werden muss, für eine bessere Umgebung. 
 \\ \\
-In diesem Kapitel soll Cloud Computing mit Gaming-as-a-Service als Beispiel vertieft werden. Hierbei sollen die Funktionalität und Architektur, 
+In diesem Kapitel soll Cloud Computing mit Gaming as a Service als Beispiel vertieft werden. Hierbei sollen die Funktionalität und Architektur, 
 sowie die aktuell verschiedenen Angebote betrachtet werden.
 
 
@@ -370,20 +370,20 @@ ist der Thin-Client verantwortlich. \footcite [Vgl.] [] {Zadtootaghaj.2022} In B
 und Cognitive-Resource-Allocation-GaaS. \footcite [Vgl.] [] {Cai.2014}
 \\ \\
 Beim Remote-Rendering-GaaS-Modell (RR-GaaS) besitzt die Cloud-Infrastruktur ein Modul zum Kodieren. Dieser ist dafür verantwortlich, jeden Frame der Spielszene zu 
-rendern und den Stream des Videos zu komprimieren, damit er an das Thin-Client übertragen werden kann. Dort wird der Stream dekodiert und angezeigt. Benutzereingaben 
-werden vom Terminal erfasst und die Cloud an die Spiellogik zurückgesendet, die sich um die entsprechende Aktualisierung des Spielzustands kümmert. \footcite [Vgl.] [] {Dangelo.2015}
+rendern und die Übertragung des Videos zu komprimieren, damit er an das Thin-Client übertragen werden kann. Dort wird die Übertragung dekodiert und angezeigt. Benutzereingaben 
+werden vom Terminal erfasst und in die Cloud an die Spiellogik zurückgesendet, die sich um die entsprechende Aktualisierung des Spielzustands kümmert. \footcite [Vgl.] [] {Dangelo.2015}
 Dies impliziert, dass die Hardwareanforderung für den Endnutzern minimiert wird, unabhängig von der Komplexität von Spielszenen, Spiellogik und Interaktionen. Folglich können hochwertige 
 Spiele mit leistungsschwachen Geräten bedient werden. \footcite [Vgl.] [] {Cai.2014} Das RR-GaaS-Modell verbraucht jedoch eine beträchtliche Bandbreite, um den komprimierten Videostream 
 zu übertragen, und kann besonders empfindlich auf Netzwerkverzögerungen reagieren.
 \\ \\
 Beim Local-Rendering-GaaS-Modell (LR-GaaS) wird der Stream des Videos in der Cloud als eine Folge von Rendering-Anweisungen auf hoher Ebene kodiert, die zum Thin-Client gestreamt werden. 
 Dieser dekodiert und führt die Anweisungen aus, um jeden einzelnen Frame zu zeichnen. \footcite [Vgl.] [] {Dangelo.2015} Der hervorstechendste Vorteil des LR-GaaS-Modells besteht darin, dass 
-die Cloud keine einzelnen Frames in Echtzeit mehr über das Internet an die Thin-Clients über-tragen muss, was die Netzwerklast erheblich reduziert. Ansonsten bestehen die ähnlichen Vorteile 
+die Cloud keine einzelnen Frames in Echtzeit mehr über das Internet an die Thin-Clients übertragen muss, was die Netzwerklast erheblich reduziert. Ansonsten bestehen die ähnlichen Vorteile 
 wie beim RR-GaaS-Modell. \footcite [Vgl.] [] {Cai.2014}
 \\ \\
-Anders als beim RR- und LR-GaaS-Modell, ist beim Cognitive-Resource-Allocation-GaaS die Cloud logisch in eine Reihe von Modulen unterteilt. Die Module können dann wiederum auf dem Thin-Client 
-hochgeladen und ausgeführt werden. Das CRA-GaaS-Modell verlagert die Berechnung zurück auf das Client-Terminal und reduziert so die Belastung der Cloud. Die Client-Ressourcen werden effizient 
-genutzt, da immer nur die benötigten Komponenten lokal gespeichert werden. Dies ist ein erheblicher Vorteil, wenn man bedenkt, dass die Daten eines kompletten mo-dernen Spiels viel Platz einnehmen.
+Anders als beim RR- und LR-GaaS-Modell, ist beim Cognitive-Resource-Allocation-GaaS (CRA-GaaS) die Cloud logisch in eine Reihe von Modulen unterteilt. Die Module können dann wiederum auf dem Thin-Client 
+hochgeladen und ausgeführt werden. Das CRA-GaaS-Modell verlagert die Berechnung zurück auf das Thin-Client und reduziert so die Belastung der Cloud. Die Client-Ressourcen werden effizient 
+genutzt, da immer nur die benötigten Komponenten lokal gespeichert werden. Dies ist ein erheblicher Vorteil, wenn man bedenkt, dass die Daten eines kompletten modernen Spiels viel Platz einnehmen.
 \footcite [Vgl.] [] {Dangelo.2015}
 \\ \\
 \begin{figure}[h]
@@ -403,7 +403,7 @@ genutzt, da immer nur die benötigten Komponenten lokal gespeichert werden. Dies
 All die Prozesse und Interaktionen zwischen der Cloud und dem Thin-Client werden durch die Leistung des Netzwerks eingeschränkt. Weitere Einschränkungen wie eine begrenzte Bandbreite, würde die 
 Erfahrung der Spieler beeinflussen. Ist es aber in Deutschland überhaupt anwendbar mit der aktuellen Breitbandverfügbarkeit? Je nach Anbieter und Qualität des Videostreams variiert sich die erforderliche 
 Internetgeschwindigkeit. Eines der großen Cloud-Gaming-Anbieter, wie Google Stadia, erfordert eine Bandbreite bei der höchsten Auflösung eine Netzwerkgeschwindigkeit von mindestens 35 Mbit/s. \footcite [Vgl.] [] {Stadia.2022}
-Da sich die Cloud beim Gaming-as-a-Service typischerweise im regionalen Netzwerk eines Betreibers befinden, bleibt die Ende-zu-Ende-Übertragungsverzögerung gering, da zwischen dem Client und dem Server normalerweise viel Bandbreite verfügbar ist. 
+Da sich die Cloud beim Gaming as a Service typischerweise im regionalen Netzwerk eines Betreibers befinden, bleibt die Ende-zu-Ende-Übertragungsverzögerung gering, da zwischen dem Client und dem Server normalerweise viel Bandbreite verfügbar ist. 
 Falls jedoch mehrere Geräte den Breitbandanschluss zu Hause nutzen, kann die verfügbare Bandbreite beim Zugang auf der letzten Meile erheblich variieren.
 \\ \\
 \begin{figure}[h]
