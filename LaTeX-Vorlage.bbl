@@ -17,6 +17,76 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{Almubaddel.2016}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Almubaddel},
+         familyi={A\bibinitperiod},
+         given={Majed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EAM}{%
+         family={Elmogy},
+         familyi={E\bibinitperiod},
+         given={Ahmed\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{5}{}{%
+      {{hash=BDE}{%
+         family={Boubiche},
+         familyi={B\bibinitperiod},
+         given={Djallel\bibnamedelima Eddine},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hidoussi},
+         familyi={H\bibinitperiod},
+         given={Faouzi},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Guezouli},
+         familyi={G\bibinitperiod},
+         given={Lyamine},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bounceur},
+         familyi={B\bibinitperiod},
+         given={Ahc{\`e}ne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CHT}{%
+         family={Cruz},
+         familyi={C\bibinitperiod},
+         given={Homero\bibnamedelima Toral},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{AMEAM1}
+    \strng{fullhash}{AMEAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Proceedings of the International Conference on Internet
+  of things and Cloud Computing}
+    \verb{doi}
+    \verb 10.1145/2896387.2896401
+    \endverb
+    \field{isbn}{9781450340632}
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{Cloud Computing Antecedents, Challenges, and Directions}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2016}
+  \endentry
+
   \entry{Arslanian.2022}{book}{}
     \name{author}{1}{}{%
       {{hash=AH}{%
@@ -122,6 +192,66 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{Fernandes.2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=FG}{%
+         family={Fernandes},
+         familyi={F\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FG1}
+    \strng{fullhash}{FG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Cloud Gamings 21.7 Million Paying Users Helped the Market
+  Generate 1.5 Billion in 2021; These Yearly Revenues Will Quadruple in 2024}
+    \verb{url}
+    \verb https://newzoo.com/insights/articles/cloud-gaming-market-generated-1-
+    \verb 5-billion-dollars-in-2021/
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Froschle.2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FHP}{%
+         family={Froeschle},
+         familyi={F\bibinitperiod},
+         given={Hans-Peter},
+         giveni={H\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meinhardt},
+         familyi={M\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FHPMS1}
+    \strng{fullhash}{FHPMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1365/s40702-014-0095-z
+    \endverb
+    \field{issn}{1436-3011}
+    \field{number}{6}
+    \field{pages}{773\bibrangedash 774}
+    \field{title}{Cloud Computing -- Von Enterprise Systems zu Business
+  Networks}
+    \field{volume}{51}
+    \field{journaltitle}{HMD Praxis der Wirtschaftsinformatik}
+    \field{year}{2014}
+  \endentry
+
   \entry{Dangelo.2015}{book}{}
     \name{author}{2}{}{%
       {{hash=GDSF}{%
@@ -156,6 +286,30 @@
       {Cham}%
     }
     \field{year}{2015}
+  \endentry
+
+  \entry{Jadhav.2020}{online}{}
+    \name{author}{1}{}{%
+      {{hash=JN}{%
+         family={Jadhav},
+         familyi={J\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JN1}
+    \strng{fullhash}{JN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{The rise of GPU-as-a-Service}
+    \verb{url}
+    \verb https://www.yotta.com/the-rise-of-gpu-as-a-service/
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{Kords.2022}{online}{}
@@ -344,6 +498,57 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{MoroVisconti.2022}{book}{}
+    \name{editor}{1}{}{%
+      {{hash=MVR}{%
+         family={Moro-Visconti},
+         familyi={M\bibinithyphendelim V\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer International Publishing}}%
+    }
+    \strng{namehash}{MVR1}
+    \strng{fullhash}{MVR1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1007/978-3-030-97117-5
+    \endverb
+    \field{isbn}{978-3-030-97116-8}
+    \field{title}{Augmented Corporate Valuation}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2022}
+  \endentry
+
+  \entry{Newzoo.2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={Newzoo},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Newzoo - Key Numbers}
+    \verb{url}
+    \verb https://newzoo.com/key-numbers/
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{Ojala.2011}{article}{}
     \name{author}{2}{}{%
       {{hash=OA}{%
@@ -377,6 +582,52 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Riasanow.2020}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=RT}{%
+         family={Riasanow},
+         familyi={R\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Krcmar},
+         familyi={K\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=KT}{%
+         family={Kollmann},
+         familyi={K\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \strng{namehash}{RTKH1}
+    \strng{fullhash}{RTKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Handbuch Digitale Wirtschaft}
+    \verb{doi}
+    \verb 10.1007/978-3-658-17345-6{\textunderscore }70-1
+    \endverb
+    \field{isbn}{978-3-658-17345-6}
+    \field{pages}{1\bibrangedash 12}
+    \field{series}{Springer Reference Wirtschaft}
+    \field{title}{Everything as a Service (XaaS)}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2020}
+  \endentry
+
   \entry{Gartner.2021}{online}{}
     \name{author}{1}{}{%
       {{hash=RM}{%
@@ -402,6 +653,167 @@
     \field{urlday}{09}
     \field{urlmonth}{06}
     \field{urlyear}{2022}
+  \endentry
+
+  \entry{Soliman.2013}{incollection}{}
+    \name{author}{4}{}{%
+      {{hash=SO}{%
+         family={Soliman},
+         familyi={S\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rezgui},
+         familyi={R\bibinitperiod},
+         given={Abdelmounaam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Soliman},
+         familyi={S\bibinitperiod},
+         given={Hamdy},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Manea},
+         familyi={M\bibinitperiod},
+         given={Najib},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \name{editor}{18}{}{%
+      {{hash=HD}{%
+         family={Hutchison},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kanade},
+         familyi={K\bibinitperiod},
+         given={Takeo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kittler},
+         familyi={K\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KJM}{%
+         family={Kleinberg},
+         familyi={K\bibinitperiod},
+         given={Jon\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mattern},
+         familyi={M\bibinitperiod},
+         given={Friedemann},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Naor},
+         familyi={N\bibinitperiod},
+         given={Moni},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NO}{%
+         family={Nierstrasz},
+         familyi={N\bibinitperiod},
+         given={Oscar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={{Pandu Rangan}},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steffen},
+         familyi={S\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sudan},
+         familyi={S\bibinitperiod},
+         given={Madhu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Terzopoulos},
+         familyi={T\bibinitperiod},
+         given={Demetri},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tygar},
+         familyi={T\bibinitperiod},
+         given={Doug},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VMY}{%
+         family={Vardi},
+         familyi={V\bibinitperiod},
+         given={Moshe\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Weikum},
+         familyi={W\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Daniel},
+         familyi={D\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PGA}{%
+         family={Papadopoulos},
+         familyi={P\bibinitperiod},
+         given={George\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Thiran},
+         familyi={T\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Berlin Heidelberg}}%
+    }
+    \strng{namehash}{SO+1}
+    \strng{fullhash}{SORASHMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Mobile Web Information Systems}
+    \verb{doi}
+    \verb 10.1007/978-3-642-40276-0{\textunderscore }10
+    \endverb
+    \field{isbn}{978-3-642-40275-3}
+    \field{pages}{121\bibrangedash 128}
+    \field{series}{Lecture Notes in Computer Science}
+    \field{title}{Mobile Cloud Gaming: Issues and Challenges}
+    \field{volume}{8093}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2013}
   \endentry
 
   \entry{Stadia.2022}{online}{}
