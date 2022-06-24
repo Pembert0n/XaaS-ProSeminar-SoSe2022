@@ -27,5 +27,5 @@
 \contentsline {chapter}{\numberline {6}Marktvorhersage}{16}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Fazit und Ausblick}{21}{chapter.7}%
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{vii}{chapter*.5}%
-\contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{ix}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Ehrenwörtliche Erklärung}{x}{chapter*.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
